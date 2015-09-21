@@ -23,6 +23,7 @@ id INTEGER, day TEXT, month TEXT, date INTEGER, title TEXT, time TEXT, venue TEX
 
 Note it looks like we do still have some special character issues to address in the event description.
 
+DESIGN
 Colors:
 MON 28 - #f48fb1
 TUES 29 - #f06292
@@ -33,9 +34,34 @@ SAT 3 - #c2185b
 SUN 4 - #ad1457
 (Repeat colors for following week)
 
+TEXT COLORS
 Pink text: #e91e63
 Black text: #030303
 
 Fonts used:
 Roboto (Light, Medium, Regular)
 
+Home screen (Event page) 
+Date: Roboto Med
+Day: Roboto Light
+Event name: Roboto Regular
+*All text is white
+
+Specific Day (Event drop down)
+Time: Roboto Light
+Location: Roboto Light, pink text color
+Title: Roboto Regular
+Description: Roboto Light
+Tickets link: Roboto Med, pink text color
+*Unless indicated, text is black
+
+Search page
+Search bar: Roboto regular
+Weekdays: Roboto regular *change to black color, diff from mockups
+Dates: Roboto regular *make active days pink, dates with no events can be faded pink
+Boxes/buttons: Pink text color
+Categories: Roboto regular
+
+No Results Toast
+Text: Roboto regular, pink text color
+Box color: #e0e0e0
