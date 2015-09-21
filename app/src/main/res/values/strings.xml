@@ -1,6 +1,12 @@
 <resources>
+    <!-- General Strings -->
     <string name="app_name">ProjectOne</string>
-
-    <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+
+    <!-- EventScreen Strings -->
+
+
+    <!-- SearchScreen Strings -->
+    <string name="title_activity_search_screen">SearchScreen</string>
+
 </resources>
