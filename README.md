@@ -20,3 +20,20 @@ id INTEGER, day TEXT, month TEXT, date INTEGER, title TEXT, time TEXT, venue TEX
   mmermusic-plays-in-c/|At the Door|$10|
 
 Note it looks like we do still have some special character issues to address in the event description.
+
+Colors:
+MON 28 - #f48fb1
+TUES 29 - #f06292
+WED 30 - #ec407a
+THURS 1 - #e91ee63
+FRI 2 - #d81b60
+SAT 3 - #c2185b
+SUN 4 - #ad1457
+(Repeat colors for following week)
+
+Pink text: #e91e63
+Black text: #030303
+
+Fonts used:
+Roboto (Light, Medium, Regular)
+
