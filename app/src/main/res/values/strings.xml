@@ -8,5 +8,8 @@
 
     <!-- SearchScreen Strings -->
     <string name="title_activity_search_screen">SearchScreen</string>
+    <string name="title_activity_search_result_screen">SearchResultScreen</string>
+
+    <string name="hello_world">Hello world!</string>
 
 </resources>
