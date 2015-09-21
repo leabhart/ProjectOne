@@ -7,6 +7,8 @@ SCREEN ONE - EventScreen
 
 SCREEN TWO - SearchScreen with filters for
     > Keyword, Day, Date, Category
+    
+SCREEN THREE - SearchResultScreen
 
 # EVENTS DATABASE
 Database file to hold event info is at 52.26.82.108/events/events.db. This has been updated to hold two weeks of events beginning with Monday, Sept 28.
