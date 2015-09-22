@@ -1,9 +1,11 @@
 package com.projectone.cs188.projectone;
 
+import android.graphics.Typeface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TextView;
 
 public class EventScreen extends AppCompatActivity {
 
@@ -11,6 +13,7 @@ public class EventScreen extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_event_screen);
+
     }
 
     @Override

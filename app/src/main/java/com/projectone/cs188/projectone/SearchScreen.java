@@ -1,9 +1,11 @@
 package com.projectone.cs188.projectone;
 
+import android.graphics.Typeface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TextView;
 
 public class SearchScreen extends AppCompatActivity {
 
@@ -11,6 +13,30 @@ public class SearchScreen extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_search_screen);
+
+        applyTypeface();
+
+    }
+
+    private void applyTypeface(){
+        Typeface robotoLight = Typeface.createFromAsset(getAssets(), "fonts/robotolight.ttf");
+        Typeface robotoRegular = Typeface.createFromAsset(getAssets(), "fonts/robotoregular.ttf");
+        Typeface robotoMedium = Typeface.createFromAsset(getAssets(), "fonts/robotomedium.ttf");
+        TextView weekdaySU = (TextView) findViewById(R.id.weekday1);
+        TextView weekdayM = (TextView) findViewById(R.id.weekday2);
+        TextView weekdayT = (TextView) findViewById(R.id.weekday3);
+        TextView weekdayW = (TextView) findViewById(R.id.weekday4);
+        TextView weekdayTH = (TextView) findViewById(R.id.weekday5);
+        TextView weekdayF = (TextView) findViewById(R.id.weekday6);
+        TextView weekdayS = (TextView) findViewById(R.id.weekday7);
+        weekdaySU.setTypeface(robotoLight);
+        weekdayM.setTypeface(robotoLight);
+        weekdayT.setTypeface(robotoLight);
+        weekdayW.setTypeface(robotoLight);
+        weekdayTH.setTypeface(robotoLight);
+        weekdayF.setTypeface(robotoLight);
+        weekdayS.setTypeface(robotoLight);
+
     }
 
     @Override
