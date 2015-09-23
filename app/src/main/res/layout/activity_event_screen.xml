@@ -87,6 +87,17 @@
                     android:layout_toRightOf="@+id/dayOne"
                     android:layout_toEndOf="@+id/dayOne" />
 
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/activity_event_spacing"
+                    android:textSize="@dimen/activity_event_text"
+                    android:text="@string/day_one_event_two"
+                    android:id="@+id/textView1_2"
+                    android:textColor="@color/white"
+                    android:layout_alignTop="@+id/textView1_1"
+                    android:layout_alignLeft="@+id/textView1_1" />
+
 
             </RelativeLayout>
 
@@ -173,6 +184,17 @@
                     android:layout_alignTop="@+id/dayThree"
                     android:layout_toRightOf="@+id/dayThree"
                     android:layout_toEndOf="@+id/dayThree" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/activity_event_spacing"
+                    android:textSize="@dimen/activity_event_text"
+                    android:text="@string/day_three_event_two"
+                    android:id="@+id/textView3_2"
+                    android:textColor="@color/white"
+                    android:layout_alignTop="@+id/textView3_1"
+                    android:layout_alignLeft="@+id/textView3_1" />
 
             </RelativeLayout>
         </TableRow>
@@ -303,6 +325,28 @@
                     android:layout_alignTop="@+id/daySix"
                     android:layout_toRightOf="@+id/daySix"
                     android:layout_toEndOf="@+id/daySix" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/activity_event_spacing"
+                    android:textSize="@dimen/activity_event_text"
+                    android:text="@string/day_six_event_two"
+                    android:id="@+id/textView6_2"
+                    android:textColor="@color/white"
+                    android:layout_alignTop="@+id/textView6_1"
+                    android:layout_alignLeft="@+id/textView6_1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/activity_event_spacing"
+                    android:textSize="@dimen/activity_event_text"
+                    android:text="@string/day_six_event_three"
+                    android:id="@+id/textView6_3"
+                    android:textColor="@color/white"
+                    android:layout_alignTop="@+id/textView6_2"
+                    android:layout_alignLeft="@+id/textView6_2" />
 
             </RelativeLayout>
         </TableRow>
