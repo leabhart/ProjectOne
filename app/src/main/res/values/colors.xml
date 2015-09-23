@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name= "dayonepink">#f48fb1</color>
+    <color name= "daytwopink">#f06292</color>
+    <color name= "daythreepink">#ec407a</color>
+    <color name= "dayfourpink">#e91e63</color>
+    <color name= "dayfivepink">#d81b60</color>
+    <color name= "daysixpink">#c2185b</color>
+    <color name= "daysevenpink">#ad1457</color>
+    <color name= "black">#000000</color>
+    <color name= "white">#FFFFFF</color>
+
+</resources>
