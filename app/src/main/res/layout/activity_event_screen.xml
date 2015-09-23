@@ -15,6 +15,17 @@
         android:layout_height="wrap_content"
         android:background="@color/black">
 
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:src="@drawable/magnifier"
+            android:maxWidth="29dp"
+            android:maxHeight="29dp"
+            android:background="@color/black"/>
+
     </TableRow>
 
     <TableRow
@@ -25,7 +36,7 @@
         <TextView
             android:id="@+id/dayOne"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="69dp"
             android:text="Test Message"
             android:ems="50" />
     </TableRow>
@@ -38,55 +49,55 @@
         <TextView
             android:id="@+id/dayTwo"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="69dp"
             android:text="Test Message 2" />
     </TableRow>
 
     <TableRow
         android:id="@+id/tableRow3"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="69dp"
         android:background="@color/daythreepink">
         <TextView
             android:id="@+id/dayThree"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="68dp"
             android:text="Test Message 3" />
     </TableRow>
 
     <TableRow
         android:id="@+id/tableRow4"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:background="@color/dayfourpink">
         <TextView
             android:id="@+id/dayFour"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="69dp"
             android:text="Test Message 4" />
     </TableRow>
 
     <TableRow
         android:id="@+id/tableRow5"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:background="@color/dayfivepink">
         <TextView
             android:id="@+id/dayFive"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Test Message 6" />
+            android:layout_height="69dp"
+            android:text="Test Message 5" />
     </TableRow>
 
     <TableRow
         android:id="@+id/tableRow6"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:background="@color/daysixpink">
         <TextView
             android:id="@+id/daySix"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="69dp"
             android:text="Test Message 6" />
     </TableRow>
 
@@ -98,7 +109,7 @@
         <TextView
             android:id="@+id/daySeven"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="69dp"
             android:text="Test Message 7" />
     </TableRow>
 
