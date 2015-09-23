@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+DESIGN Colors: 
+    MON 28 - #f48fb1 
+    TUES 29 - #f06292 
+    WED 30 - #ec407a 
+    THURS 1 - #e91ee63 
+    FRI 2 - #d81b60 
+    SAT 3 - #c2185b 
+    SUN 4 - #ad1457
+
+TEXT COLORS
+    Pink text: #e91e63
+    Black text: #030303
+-->
+
+<resources>
+    <!-- day colors -->
+    <color name="mon">#f48fb1</color>
+    <color name="tue">#f06292</color>
+    <color name="wed">#ec407a</color>
+    <color name="thu">#e91e63</color>
+    <color name="fri">#d81b60</color>
+    <color name="sat">#c2185b</color>
+    <color name="sun">#ad1457</color>
+
+    <!-- font colors -->
+    <color name="pink_txt">#e91e63</color>
+    <color name="blank_txt">#030303</color>
+
+</resources>
