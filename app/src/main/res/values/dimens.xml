@@ -5,4 +5,5 @@
     <dimen name="activity_vertical_margin">12dp</dimen>
     <dimen name="activity_day_text">16sp</dimen>
     <dimen name="activity_date_text">27sp</dimen>
+    <dimen name="activity_event_text">12sp</dimen>
 </resources>
