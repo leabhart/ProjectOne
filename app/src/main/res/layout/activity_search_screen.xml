@@ -10,168 +10,361 @@
     <TextView
         android:id="@+id/weekday1"
         android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
+        android:layout_width="58px"
         android:textSize="15sp"
         android:textColor="#030303"
-        android:text="SU"
-        android:layout_toLeftOf="@+id/weekday2"
-        android:layout_marginRight="25dp"
-        android:layout_marginEnd="52dp"
-        android:layout_marginTop="25dp"/>
+        android:text="SU "
+        android:layout_marginTop="75dp"
+        android:gravity="center_horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="70dp"
+        android:layout_marginStart="70dp" />
 
     <TextView
         android:id="@+id/weekday2"
         android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
+        android:layout_width="58px"
         android:textSize="15sp"
         android:textColor="#030303"
-        android:text="M"
-        android:layout_marginLeft="30dp"
-        android:layout_marginStart="37dp"
+        android:text="M "
+        android:gravity="center_horizontal"
         android:layout_alignTop="@+id/weekday1"
-        android:layout_toLeftOf="@+id/weekday3"
-        android:layout_toStartOf="@+id/weekday3"
-        android:layout_marginRight="55dp"
-        android:layout_marginEnd="52dp" />
+        android:layout_toRightOf="@+id/weekday1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp" />
 
     <TextView
         android:id="@+id/weekday3"
         android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
+        android:layout_width="58px"
         android:textSize="15sp"
         android:textColor="#030303"
-        android:text="T"
+        android:text="T "
+        android:gravity="center_horizontal"
         android:layout_alignTop="@+id/weekday2"
-        android:layout_toLeftOf="@+id/weekday4"
-        android:layout_toStartOf="@+id/weekday4"
-        android:layout_marginRight="25dp"
-        android:layout_marginEnd="52dp" />
+        android:layout_toRightOf="@+id/weekday2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp" />
 
     <TextView
         android:id="@+id/weekday4"
         android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
+        android:layout_width="58px"
         android:textSize="15sp"
         android:textColor="#030303"
-        android:text="W"
-        android:layout_marginLeft="30dp"
-        android:layout_marginStart="37dp"
+        android:text="W "
+        android:gravity="center_horizontal"
         android:layout_alignTop="@+id/weekday3"
-        android:layout_centerHorizontal="true" />
+        android:layout_toRightOf="@+id/weekday3"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp" />
 
     <TextView
         android:id="@+id/weekday5"
         android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
+        android:layout_width="58px"
         android:textSize="15sp"
         android:textColor="#030303"
-        android:text="TH"
+        android:text="TH "
+        android:gravity="center_horizontal"
         android:layout_alignTop="@+id/weekday4"
-        android:layout_marginLeft="50dp"
-        android:layout_marginStart="37dp"
-        android:layout_toRightOf="@+id/weekday4" />
+        android:layout_toRightOf="@+id/weekday4"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp" />
 
     <TextView
         android:id="@+id/weekday6"
         android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
+        android:layout_width="58px"
         android:textSize="15sp"
         android:textColor="#030303"
-        android:text="F"
-        android:layout_marginLeft="50dp"
-        android:layout_marginStart="37dp"
+        android:text="F "
+        android:gravity="center_horizontal"
         android:layout_alignTop="@+id/weekday5"
         android:layout_toRightOf="@+id/weekday5"
-        android:layout_toEndOf="@+id/weekday5" />
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp" />
 
     <TextView
         android:id="@+id/weekday7"
         android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
+        android:layout_width="58px"
         android:textSize="15sp"
         android:textColor="#030303"
-        android:text="S"
-        android:layout_marginLeft="50dp"
-        android:layout_marginStart="37dp"
+        android:text="S "
+        android:gravity="center_horizontal"
         android:layout_alignTop="@+id/weekday6"
         android:layout_toRightOf="@+id/weekday6"
-        android:layout_toEndOf="@+id/weekday6" />
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp" />
 
-    <!-- dates, still have to put boarder around them -->
+    <!--dates-->
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="50dp"
         android:layout_height="wrap_content"
         android:text="9/27"
         android:textColor="#e91e63"
         android:id="@+id/date0927"
-        android:layout_marginTop="38dp"
+        android:background="@drawable/border"
+        android:layout_marginTop="30dp"
+        android:gravity="center_horizontal"
         android:layout_below="@+id/weekday1"
         android:layout_alignRight="@+id/weekday1"
         android:layout_alignEnd="@+id/weekday1" />
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="50dp"
         android:layout_height="wrap_content"
         android:text="9/28"
-        android:textColor="#e91e63"
+        android:textColor="#f48fb1"
         android:id="@+id/date0928"
+        android:background="@drawable/border"
+        android:gravity="center_horizontal"
         android:layout_alignTop="@+id/date0927"
-        android:layout_alignRight="@+id/weekday2"
-        android:layout_alignEnd="@+id/weekday2" />
+        android:layout_toRightOf="@+id/date0927"
+        android:layout_marginLeft="14dp" />
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="50dp"
         android:layout_height="wrap_content"
         android:text="9/29"
         android:textColor="#e91e63"
         android:id="@+id/date0929"
-        android:layout_alignBaseline="@+id/date0928"
-        android:layout_alignBottom="@+id/date0928"
-        android:layout_alignRight="@+id/weekday3"
-        android:layout_alignEnd="@+id/weekday3" />
+        android:background="@drawable/border"
+        android:gravity="center_horizontal"
+        android:layout_alignTop="@+id/date0928"
+        android:layout_toRightOf="@+id/date0928"
+        android:layout_marginLeft="14dp" />
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="50dp"
         android:layout_height="wrap_content"
         android:text="9/30"
         android:textColor="#e91e63"
         android:id="@+id/date0930"
-        android:layout_alignBaseline="@+id/date0929"
-        android:layout_alignBottom="@+id/date0929"
-        android:layout_alignRight="@+id/weekday4"
-        android:layout_alignEnd="@+id/weekday4" />
+        android:background="@drawable/border"
+        android:gravity="center_horizontal"
+        android:layout_alignTop="@+id/date0929"
+        android:layout_toRightOf="@+id/date0929"
+        android:layout_marginLeft="14dp" />
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="50dp"
         android:layout_height="wrap_content"
         android:text="10/1"
-        android:textColor="#e91e63"
+        android:textColor="#f48fb1"
         android:id="@+id/date1001"
-        android:layout_alignBaseline="@+id/date0930"
-        android:layout_alignBottom="@+id/date0930"
-        android:layout_alignRight="@+id/weekday5"
-        android:layout_alignEnd="@+id/weekday5" />
+        android:background="@drawable/border"
+        android:gravity="center_horizontal"
+        android:layout_alignTop="@+id/date0930"
+        android:layout_toRightOf="@+id/date0930"
+        android:layout_marginLeft="14dp" />
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="50dp"
         android:layout_height="wrap_content"
         android:text="10/2"
         android:textColor="#e91e63"
         android:id="@+id/date1002"
-        android:layout_alignBaseline="@+id/date1001"
-        android:layout_alignBottom="@+id/date1001"
-        android:layout_alignRight="@+id/weekday6"
-        android:layout_alignEnd="@+id/weekday6" />
+        android:background="@drawable/border"
+        android:gravity="center_horizontal"
+        android:layout_alignTop="@+id/date1001"
+        android:layout_toRightOf="@+id/date1001"
+        android:layout_marginLeft="14dp" />
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="50dp"
         android:layout_height="wrap_content"
         android:text="10/3"
         android:textColor="#e91e63"
         android:id="@+id/date1003"
-        android:layout_alignBaseline="@+id/date1002"
-        android:layout_alignBottom="@+id/date1002"
-        android:layout_alignRight="@+id/weekday7"
-        android:layout_alignEnd="@+id/weekday7" />
+        android:background="@drawable/border"
+        android:gravity="center_horizontal"
+        android:layout_alignTop="@+id/date1002"
+        android:layout_toRightOf="@+id/date1002"
+        android:layout_marginLeft="14dp" />
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:text="10/4"
+        android:textColor="#e91e63"
+        android:id="@+id/date1004"
+        android:gravity="center_horizontal"
+        android:background="@drawable/border"
+        android:layout_below="@+id/date0927"
+        android:layout_alignLeft="@+id/date0927"
+        android:layout_alignStart="@+id/date0927"
+        android:layout_marginTop="25dp" />
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:text="10/5"
+        android:textColor="#e91e63"
+        android:id="@+id/date1005"
+        android:gravity="center_horizontal"
+        android:background="@drawable/border"
+        android:layout_below="@+id/date0928"
+        android:layout_alignLeft="@+id/date0928"
+        android:layout_alignStart="@+id/date0928"
+        android:layout_marginTop="25dp" />
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:text="10/6"
+        android:textColor="#e91e63"
+        android:id="@+id/date1006"
+        android:gravity="center_horizontal"
+        android:background="@drawable/border"
+        android:layout_below="@+id/date0929"
+        android:layout_alignLeft="@+id/date0929"
+        android:layout_alignStart="@+id/date0929"
+        android:layout_marginTop="25dp" />
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:text="10/7"
+        android:textColor="#e91e63"
+        android:id="@+id/date1007"
+        android:gravity="center_horizontal"
+        android:background="@drawable/border"
+        android:layout_below="@+id/date0930"
+        android:layout_alignLeft="@+id/date0930"
+        android:layout_alignStart="@+id/date0930"
+        android:layout_marginTop="25dp" />
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:text="10/8"
+        android:textColor="#e91e63"
+        android:id="@+id/date1008"
+        android:gravity="center_horizontal"
+        android:background="@drawable/border"
+        android:layout_below="@+id/date1001"
+        android:layout_alignLeft="@+id/date1001"
+        android:layout_alignStart="@+id/date1001"
+        android:layout_marginTop="25dp" />
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:text="10/9"
+        android:textColor="#e91e63"
+        android:id="@+id/date1009"
+        android:gravity="center_horizontal"
+        android:background="@drawable/border"
+        android:layout_below="@+id/date1002"
+        android:layout_alignLeft="@+id/date1002"
+        android:layout_alignStart="@+id/date1002"
+        android:layout_marginTop="25dp" />
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:text="10/10"
+        android:textColor="#e91e63"
+        android:id="@+id/date1010"
+        android:gravity="center_horizontal"
+        android:background="@drawable/border"
+        android:layout_below="@+id/date1003"
+        android:layout_alignLeft="@+id/date1003"
+        android:layout_alignStart="@+id/date1003"
+        android:layout_marginTop="25dp" />
+
+
+
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:id="@+id/circusbutton"
+        android:src="@drawable/cbcircus"
+        android:layout_below="@+id/date1004"
+        android:layout_marginTop="75dp"
+        android:layout_marginLeft="31dp"/>
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:id="@+id/culinarybutton"
+        android:src="@drawable/cbculinary"
+        android:layout_below="@+id/circusbutton"
+        android:layout_alignLeft="@+id/circusbutton"
+        android:layout_alignStart="@+id/circusbutton" />
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:id="@+id/dancebutton"
+        android:src="@drawable/cbdance"
+        android:layout_below="@+id/culinarybutton"
+        android:layout_alignLeft="@+id/circusbutton"
+        android:layout_alignStart="@+id/circusbutton" />
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:id="@+id/educationbutton"
+        android:src="@drawable/cbeducation"
+        android:layout_below="@+id/dancebutton"
+        android:layout_alignLeft="@+id/circusbutton"
+        android:layout_alignStart="@+id/circusbutton" />
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:id="@+id/filmbutton"
+        android:src="@drawable/cbfilm"
+        android:layout_below="@+id/educationbutton"
+        android:layout_alignLeft="@+id/circusbutton"
+        android:layout_alignStart="@+id/circusbutton" />
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:id="@+id/literarybutton"
+        android:src="@drawable/cbliterary"
+        android:layout_alignTop="@id/circusbutton"
+        android:layout_toRightOf="@+id/circusbutton" />
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:id="@+id/musicbutton"
+        android:src="@drawable/cbmusic"
+        android:layout_alignTop="@id/culinarybutton"
+        android:layout_toRightOf="@+id/culinarybutton" />
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:id="@+id/socialbutton"
+        android:src="@drawable/cbsocial"
+        android:layout_alignTop="@id/dancebutton"
+        android:layout_toRightOf="@+id/dancebutton" />
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:id="@+id/theaterbutton"
+        android:src="@drawable/cbtheater"
+        android:layout_alignTop="@id/educationbutton"
+        android:layout_toRightOf="@+id/educationbutton" />
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:id="@+id/visualartbutton"
+        android:src="@drawable/cbvisualart"
+        android:layout_alignTop="@id/filmbutton"
+        android:layout_toRightOf="@+id/filmbutton" />
+
+
 
 </RelativeLayout>
