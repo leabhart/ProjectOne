@@ -1,10 +1,29 @@
 <resources>
     <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="search_button_size">31dp</dimen>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_double_horizontal_margin">32dp</dimen>
     <dimen name="activity_vertical_margin">12dp</dimen>
     <dimen name="activity_event_spacing">15dp</dimen>
+    <dimen name="activity_layout_width">60dp</dimen>
+    <dimen name="activity_layout_height">20dp</dimen>
+    <dimen name="activity_margin_start">48dp</dimen>
+    <dimen name="full_screen">380dp</dimen>
     <dimen name="activity_day_text">16sp</dimen>
     <dimen name="activity_date_text">27sp</dimen>
     <dimen name="activity_event_text">12sp</dimen>
+
+    <!-- Phone dimensions
+    <dimen name="search_button_size">31dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_double_horizontal_margin">32dp</dimen>
+    <dimen name="activity_vertical_margin">12dp</dimen>
+    <dimen name="activity_event_spacing">15dp</dimen>
+    <dimen name="activity_layout_width">60dp</dimen>
+    <dimen name="activity_layout_height">20dp</dimen>
+    <dimen name="activity_margin_start">48dp</dimen>
+    <dimen name="full_screen">380dp</dimen>
+    <dimen name="activity_day_text">16sp</dimen>
+    <dimen name="activity_date_text">27sp</dimen>
+    <dimen name="activity_event_text">12sp</dimen> -->
 </resources>
