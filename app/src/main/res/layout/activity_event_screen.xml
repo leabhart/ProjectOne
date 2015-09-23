@@ -76,29 +76,6 @@
                     android:layout_alignBottom="@+id/dayOne"
                     android:layout_centerHorizontal="true" />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="@dimen/activity_event_text"
-                    android:text="@string/day_one_event_one"
-                    android:id="@+id/textView1_1"
-                    android:textColor="@color/white"
-                    android:layout_alignTop="@+id/dayOne"
-                    android:layout_toRightOf="@+id/dayOne"
-                    android:layout_toEndOf="@+id/dayOne" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="@dimen/activity_event_spacing"
-                    android:textSize="@dimen/activity_event_text"
-                    android:text="@string/day_one_event_two"
-                    android:id="@+id/textView1_2"
-                    android:textColor="@color/white"
-                    android:layout_alignTop="@+id/textView1_1"
-                    android:layout_alignLeft="@+id/textView1_1" />
-
-
             </RelativeLayout>
 
 
@@ -136,6 +113,28 @@
                     android:textSize="@dimen/activity_date_text"
                     android:textStyle="bold"
                     android:textColor="@color/white"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/activity_event_text"
+                    android:text="@string/day_two_event_one"
+                    android:id="@+id/textView2_1"
+                    android:textColor="@color/white"
+                    android:layout_alignTop="@+id/dayTwo"
+                    android:layout_toRightOf="@+id/dayTwo"
+                    android:layout_toEndOf="@+id/dayTwo" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/activity_event_spacing"
+                    android:textSize="@dimen/activity_event_text"
+                    android:text="@string/day_two_event_two"
+                    android:id="@+id/textView3_2"
+                    android:textColor="@color/white"
+                    android:layout_alignTop="@+id/textView2_1"
+                    android:layout_alignLeft="@+id/textView2_1" />
 
             </RelativeLayout>
 
@@ -185,17 +184,6 @@
                     android:layout_toRightOf="@+id/dayThree"
                     android:layout_toEndOf="@+id/dayThree" />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="@dimen/activity_event_spacing"
-                    android:textSize="@dimen/activity_event_text"
-                    android:text="@string/day_three_event_two"
-                    android:id="@+id/textView3_2"
-                    android:textColor="@color/white"
-                    android:layout_alignTop="@+id/textView3_1"
-                    android:layout_alignLeft="@+id/textView3_1" />
-
             </RelativeLayout>
         </TableRow>
 
@@ -232,17 +220,6 @@
                     android:textStyle="bold"
                     android:textColor="@color/white"/>
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="@dimen/activity_event_text"
-                    android:text="@string/day_four_event_one"
-                    android:id="@+id/textView4_1"
-                    android:textColor="@color/white"
-                    android:layout_alignTop="@+id/dayFour"
-                    android:layout_toRightOf="@+id/dayFour"
-                    android:layout_toEndOf="@+id/dayFour" />
-
             </RelativeLayout>
         </TableRow>
 
@@ -278,6 +255,39 @@
                     android:textSize="@dimen/activity_date_text"
                     android:textStyle="bold"
                     android:textColor="@color/white"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/activity_event_text"
+                    android:text="@string/day_six_event_one"
+                    android:id="@+id/textView5_1"
+                    android:textColor="@color/white"
+                    android:layout_alignTop="@+id/dayFive"
+                    android:layout_toRightOf="@+id/dayFive"
+                    android:layout_toEndOf="@+id/dayFive" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/activity_event_spacing"
+                    android:textSize="@dimen/activity_event_text"
+                    android:text="@string/day_five_event_two"
+                    android:id="@+id/textView5_2"
+                    android:textColor="@color/white"
+                    android:layout_alignTop="@+id/textView5_1"
+                    android:layout_alignLeft="@+id/textView5_1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/activity_event_spacing"
+                    android:textSize="@dimen/activity_event_text"
+                    android:text="@string/day_five_event_three"
+                    android:id="@+id/textView5_3"
+                    android:textColor="@color/white"
+                    android:layout_alignTop="@+id/textView5_2"
+                    android:layout_alignLeft="@+id/textView5_2" />
 
             </RelativeLayout>
         </TableRow>
@@ -325,28 +335,6 @@
                     android:layout_alignTop="@+id/daySix"
                     android:layout_toRightOf="@+id/daySix"
                     android:layout_toEndOf="@+id/daySix" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="@dimen/activity_event_spacing"
-                    android:textSize="@dimen/activity_event_text"
-                    android:text="@string/day_six_event_two"
-                    android:id="@+id/textView6_2"
-                    android:textColor="@color/white"
-                    android:layout_alignTop="@+id/textView6_1"
-                    android:layout_alignLeft="@+id/textView6_1" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="@dimen/activity_event_spacing"
-                    android:textSize="@dimen/activity_event_text"
-                    android:text="@string/day_six_event_three"
-                    android:id="@+id/textView6_3"
-                    android:textColor="@color/white"
-                    android:layout_alignTop="@+id/textView6_2"
-                    android:layout_alignLeft="@+id/textView6_2" />
 
             </RelativeLayout>
         </TableRow>
