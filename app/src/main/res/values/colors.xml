@@ -17,16 +17,19 @@ TEXT COLORS
 
 <resources>
     <!-- day colors -->
-    <color name="mon">#f48fb1</color>
-    <color name="tue">#f06292</color>
-    <color name="wed">#ec407a</color>
-    <color name="thu">#e91e63</color>
-    <color name="fri">#d81b60</color>
-    <color name="sat">#c2185b</color>
-    <color name="sun">#ad1457</color>
+
+    <color name= "dayonepink">#f48fb1</color>
+    <color name= "daytwopink">#f06292</color>
+    <color name= "daythreepink">#ec407a</color>
+    <color name= "dayfourpink">#e91e63</color>
+    <color name= "dayfivepink">#d81b60</color>
+    <color name= "daysixpink">#c2185b</color>
+    <color name= "daysevenpink">#ad1457</color>
 
     <!-- font colors -->
     <color name="pink_txt">#e91e63</color>
     <color name="blank_txt">#030303</color>
+    <color name= "black">#000000</color>
+    <color name= "white">#FFFFFF</color>
 
 </resources>
