@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<<<<<<< HEAD
-=======
 
 <!--
 DESIGN Colors: 
@@ -35,4 +33,3 @@ TEXT COLORS
     <color name= "white">#FFFFFF</color>
 
 </resources>
->>>>>>> origin/master
