@@ -1,116 +1,294 @@
-<TableLayout
+<RelativeLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:paddingLeft="0dp"
-    android:paddingRight="0dp"
-    android:paddingTop="0dp"
-    android:paddingBottom="0dp"
-    tools:context=".EventScreen">
+    xmlns:tools="http://schemas.android.com/tools">
 
-    <TableRow
-        android:id="@+id/searchRow"
+    <TableLayout
+
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/black">
+        android:layout_height="match_parent"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:paddingTop="0dp"
+        android:paddingBottom="0dp"
+        tools:context=".EventScreen">
 
-        <ImageButton
-            android:layout_width="wrap_content"
+        <TableRow
+            android:id="@+id/searchRow"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/imageButton"
-            android:scaleType="fitCenter"
-            android:adjustViewBounds="true"
-            android:src="@drawable/magnifier"
-            android:maxWidth="29dp"
-            android:maxHeight="29dp"
-            android:background="@color/black"/>
+            android:background="@color/black"
+            android:layout_gravity="center">
 
-    </TableRow>
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/imageButton"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                android:src="@drawable/magnifier"
+                android:maxWidth="31dp"
+                android:maxHeight="31dp"
+                android:layout_span="2"
+                android:background="@color/black"/>
 
-    <TableRow
-        android:id="@+id/tableRow1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/dayonepink">
-        <TextView
-            android:id="@+id/dayOne"
-            android:layout_width="wrap_content"
-            android:layout_height="69dp"
-            android:text="Test Message"
-            android:ems="50" />
-    </TableRow>
+        </TableRow>
 
-    <TableRow
-        android:id="@+id/tableRow2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/daytwopink">
-        <TextView
-            android:id="@+id/dayTwo"
-            android:layout_width="wrap_content"
-            android:layout_height="69dp"
-            android:text="Test Message 2" />
-    </TableRow>
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/dayonepink">
+            <RelativeLayout>
+                <TextView
+                android:id="@+id/dayOne"
+                android:layout_width="60dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="@dimen/activity_double_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_double_horizontal_margin"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:text="@string/day_of_week_one"
+                android:textSize="@dimen/activity_day_text"
+                android:textColor="@color/white"/>
 
-    <TableRow
-        android:id="@+id/tableRow3"
-        android:layout_width="match_parent"
-        android:layout_height="69dp"
-        android:background="@color/daythreepink">
-        <TextView
-            android:id="@+id/dayThree"
-            android:layout_width="wrap_content"
-            android:layout_height="68dp"
-            android:text="Test Message 3" />
-    </TableRow>
+                <TextView
+                    android:id="@+id/dateOne"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/dayOne"
+                    android:layout_marginStart="48dp"
+                    android:layout_marginLeft="@dimen/activity_double_horizontal_margin"
+                    android:layout_marginRight="@dimen/activity_double_horizontal_margin"
+                    android:layout_marginTop="@dimen/activity_vertical_margin"
+                    android:layout_marginBottom="@dimen/activity_vertical_margin"
+                    android:text="@string/date_one"
+                    android:textSize="@dimen/activity_date_text"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"/>
 
-    <TableRow
-        android:id="@+id/tableRow4"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@color/dayfourpink">
-        <TextView
-            android:id="@+id/dayFour"
-            android:layout_width="wrap_content"
-            android:layout_height="69dp"
-            android:text="Test Message 4" />
-    </TableRow>
+            </RelativeLayout>
+        </TableRow>
 
-    <TableRow
-        android:id="@+id/tableRow5"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@color/dayfivepink">
-        <TextView
-            android:id="@+id/dayFive"
-            android:layout_width="wrap_content"
-            android:layout_height="69dp"
-            android:text="Test Message 5" />
-    </TableRow>
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/daytwopink">
+            <RelativeLayout>
+                <TextView
+                    android:id="@+id/dayTwo"
+                    android:layout_width="60dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="@dimen/activity_double_horizontal_margin"
+                    android:layout_marginRight="@dimen/activity_double_horizontal_margin"
+                    android:layout_marginTop="@dimen/activity_vertical_margin"
+                    android:layout_marginBottom="@dimen/activity_vertical_margin"
+                    android:text="@string/day_of_week_two"
+                    android:textSize="@dimen/activity_day_text"
+                    android:textColor="@color/white"/>
 
-    <TableRow
-        android:id="@+id/tableRow6"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@color/daysixpink">
-        <TextView
-            android:id="@+id/daySix"
-            android:layout_width="wrap_content"
-            android:layout_height="69dp"
-            android:text="Test Message 6" />
-    </TableRow>
+                <TextView
+                    android:id="@+id/dateTwo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/dayTwo"
+                    android:layout_marginStart="48dp"
+                    android:layout_marginLeft="@dimen/activity_double_horizontal_margin"
+                    android:layout_marginRight="@dimen/activity_double_horizontal_margin"
+                    android:layout_marginTop="@dimen/activity_vertical_margin"
+                    android:layout_marginBottom="@dimen/activity_vertical_margin"
+                    android:text="@string/date_two"
+                    android:textSize="@dimen/activity_date_text"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"/>
 
-    <TableRow
-        android:id="@+id/tableRow7"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/daysevenpink">
-        <TextView
-            android:id="@+id/daySeven"
-            android:layout_width="wrap_content"
-            android:layout_height="69dp"
-            android:text="Test Message 7" />
-    </TableRow>
+            </RelativeLayout>
 
-</TableLayout>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/daythreepink">
+            <RelativeLayout>
+                <TextView
+                    android:id="@+id/dayThree"
+                    android:layout_width="60dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="@dimen/activity_double_horizontal_margin"
+                    android:layout_marginRight="@dimen/activity_double_horizontal_margin"
+                    android:layout_marginTop="@dimen/activity_vertical_margin"
+                    android:layout_marginBottom="@dimen/activity_vertical_margin"
+                    android:text="@string/day_of_week_three"
+                    android:textSize="@dimen/activity_day_text"
+                    android:textColor="@color/white"/>
+
+                <TextView
+                    android:id="@+id/dateThree"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/dayThree"
+                    android:layout_marginStart="48dp"
+                    android:layout_marginLeft="@dimen/activity_double_horizontal_margin"
+                    android:layout_marginRight="@dimen/activity_double_horizontal_margin"
+                    android:layout_marginTop="@dimen/activity_vertical_margin"
+                    android:layout_marginBottom="@dimen/activity_vertical_margin"
+                    android:text="@string/date_three"
+                    android:textSize="@dimen/activity_date_text"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"/>
+
+            </RelativeLayout>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/dayfourpink">
+            <RelativeLayout>
+                <TextView
+                    android:id="@+id/dayFour"
+                    android:layout_width="60dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="@dimen/activity_double_horizontal_margin"
+                    android:layout_marginRight="@dimen/activity_double_horizontal_margin"
+                    android:layout_marginTop="@dimen/activity_vertical_margin"
+                    android:layout_marginBottom="@dimen/activity_vertical_margin"
+                    android:text="@string/day_of_week_four"
+                    android:textSize="@dimen/activity_day_text"
+                    android:textColor="@color/white"/>
+
+                <TextView
+                    android:id="@+id/dateFour"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/dayFour"
+                    android:layout_marginStart="48dp"
+                    android:layout_marginLeft="@dimen/activity_double_horizontal_margin"
+                    android:layout_marginRight="@dimen/activity_double_horizontal_margin"
+                    android:layout_marginTop="@dimen/activity_vertical_margin"
+                    android:layout_marginBottom="@dimen/activity_vertical_margin"
+                    android:text="@string/date_four"
+                    android:textSize="@dimen/activity_date_text"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"/>
+
+            </RelativeLayout>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/dayfivepink">
+            <RelativeLayout>
+                <TextView
+                    android:id="@+id/dayFive"
+                    android:layout_width="60dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="@dimen/activity_double_horizontal_margin"
+                    android:layout_marginRight="@dimen/activity_double_horizontal_margin"
+                    android:layout_marginTop="@dimen/activity_vertical_margin"
+                    android:layout_marginBottom="@dimen/activity_vertical_margin"
+                    android:text="@string/day_of_week_five"
+                    android:textSize="@dimen/activity_day_text"
+                    android:textColor="@color/white"/>
+
+                <TextView
+                    android:id="@+id/dateFive"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/dayFive"
+                    android:layout_marginStart="48dp"
+                    android:layout_marginLeft="@dimen/activity_double_horizontal_margin"
+                    android:layout_marginRight="@dimen/activity_double_horizontal_margin"
+                    android:layout_marginTop="@dimen/activity_vertical_margin"
+                    android:layout_marginBottom="@dimen/activity_vertical_margin"
+                    android:text="@string/date_five"
+                    android:textSize="@dimen/activity_date_text"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"/>
+
+            </RelativeLayout>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/daysixpink">
+            <RelativeLayout>
+                <TextView
+                    android:id="@+id/daySix"
+                    android:layout_width="60dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="@dimen/activity_double_horizontal_margin"
+                    android:layout_marginRight="@dimen/activity_double_horizontal_margin"
+                    android:layout_marginTop="@dimen/activity_vertical_margin"
+                    android:layout_marginBottom="@dimen/activity_vertical_margin"
+                    android:text="@string/day_of_week_six"
+                    android:textSize="@dimen/activity_day_text"
+                    android:textColor="@color/white"/>
+
+                <TextView
+                    android:id="@+id/dateSix"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/daySix"
+                    android:layout_marginStart="48dp"
+                    android:layout_marginLeft="@dimen/activity_double_horizontal_margin"
+                    android:layout_marginRight="@dimen/activity_double_horizontal_margin"
+                    android:layout_marginTop="@dimen/activity_vertical_margin"
+                    android:layout_marginBottom="@dimen/activity_vertical_margin"
+                    android:text="@string/date_six"
+                    android:textSize="@dimen/activity_date_text"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"/>
+
+            </RelativeLayout>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/daysevenpink">
+            <RelativeLayout>
+                <TextView
+                    android:id="@+id/daySeven"
+                    android:layout_width="60dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="@dimen/activity_double_horizontal_margin"
+                    android:layout_marginRight="@dimen/activity_double_horizontal_margin"
+                    android:layout_marginTop="@dimen/activity_vertical_margin"
+                    android:layout_marginBottom="@dimen/activity_vertical_margin"
+                    android:text="@string/day_of_week_seven"
+                    android:textSize="@dimen/activity_day_text"
+                    android:textColor="@color/white"/>
+
+                <TextView
+                    android:id="@+id/dateSeven"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/daySeven"
+                    android:layout_marginStart="48dp"
+                    android:layout_marginLeft="@dimen/activity_double_horizontal_margin"
+                    android:layout_marginRight="@dimen/activity_double_horizontal_margin"
+                    android:layout_marginTop="@dimen/activity_vertical_margin"
+                    android:layout_marginBottom="@dimen/activity_vertical_margin"
+                    android:text="@string/date_seven"
+                    android:textSize="@dimen/activity_date_text"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"/>
+
+            </RelativeLayout>
+        </TableRow>
+
+    </TableLayout>
+
+</RelativeLayout>
