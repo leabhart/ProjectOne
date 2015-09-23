@@ -4,7 +4,7 @@
     <dimen name="activity_horizontal_margin">24dp</dimen>
     <dimen name="activity_double_horizontal_margin">48dp</dimen>
     <dimen name="activity_vertical_margin">20dp</dimen>
-    <dimen name="activity_event_spacing">22dp</dimen>
+    <dimen name="activity_event_spacing">24dp</dimen>
     <dimen name="activity_layout_width">90dp</dimen>
     <dimen name="activity_layout_height">30dp</dimen>
     <dimen name="activity_margin_start">72dp</dimen>
