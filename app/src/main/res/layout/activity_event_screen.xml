@@ -35,7 +35,9 @@
                 android:maxWidth="@dimen/search_button_size"
                 android:maxHeight="@dimen/search_button_size"
                 android:layout_span="3"
-                android:background="@color/black"/>
+                android:background="@color/black"
+                android:onClick="toSearchScreen"/>
+
 
         </TableRow>
 
