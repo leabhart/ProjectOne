@@ -20,7 +20,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/black"
-            android:layout_gravity="center">
+            android:layout_gravity="center"
+            android:onClick="toSearchScreen">
 
             <ImageButton
                 android:layout_width="match_parent"
@@ -28,6 +29,8 @@
                 android:id="@+id/imageButton"
                 android:scaleType="fitCenter"
                 android:adjustViewBounds="true"
+                android:layout_marginTop="@dimen/search_button_margin"
+                android:layout_marginBottom="@dimen/search_button_margin"
                 android:src="@drawable/magnifier"
                 android:maxWidth="@dimen/search_button_size"
                 android:maxHeight="@dimen/search_button_size"
@@ -73,8 +76,9 @@
                     android:layout_width="@dimen/full_screen"
                     android:layout_height="wrap_content"
                     android:id="@+id/rowSpaceHolder"
-                    android:layout_alignBottom="@+id/dayOne"
-                    android:layout_centerHorizontal="true" />
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
 
             </RelativeLayout>
 
