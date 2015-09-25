@@ -83,14 +83,6 @@
                 android:value="com.projectone.cs188.projectone.SearchScreen" />
         </activity>
         <activity
-            android:name=".SearchResultDance"
-            android:label="@string/title_activity_search_result_dance"
-            android:parentActivityName=".SearchScreen" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.projectone.cs188.projectone.SearchScreen" />
-        </activity>
-        <activity
             android:name=".SearchResultEd"
             android:label="@string/title_activity_search_result_ed"
             android:parentActivityName=".SearchScreen" >
@@ -141,6 +133,14 @@
         <activity
             android:name=".SearchResultVA"
             android:label="@string/title_activity_search_result_v"
+            android:parentActivityName=".SearchScreen" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.projectone.cs188.projectone.SearchScreen" />
+        </activity>
+        <activity
+            android:name=".SearchResultDance"
+            android:label="@string/title_activity_search_result_dance"
             android:parentActivityName=".SearchScreen" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
