@@ -132,7 +132,7 @@
                     android:layout_marginTop="@dimen/activity_event_spacing"
                     android:textSize="@dimen/activity_event_text"
                     android:text="@string/day_two_event_two"
-                    android:id="@+id/textView3_2"
+                    android:id="@+id/textView2_2"
                     android:textColor="@color/white"
                     android:layout_alignTop="@+id/textView2_1"
                     android:layout_alignLeft="@+id/textView2_1" />
@@ -378,7 +378,7 @@
                     android:layout_height="wrap_content"
                     android:textSize="@dimen/activity_event_text"
                     android:text="@string/day_seven_event_one"
-                    android:id="@+id/textView"
+                    android:id="@+id/textView7_1"
                     android:textColor="@color/white"
                     android:layout_alignTop="@+id/daySeven"
                     android:layout_toRightOf="@+id/daySeven"

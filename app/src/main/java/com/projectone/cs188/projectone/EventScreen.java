@@ -15,6 +15,36 @@ import android.widget.Toast;
 
 public class EventScreen extends AppCompatActivity {
 
+    private void applyTypeface() {
+        Typeface robotoLight = Typeface.createFromAsset(getAssets(), "fonts/robotolight.ttf");
+        Typeface robotoRegular = Typeface.createFromAsset(getAssets(), "fonts/robotoregular.ttf");
+        Typeface robotoMedium = Typeface.createFromAsset(getAssets(), "fonts/robotomedium.ttf");
+        TextView Day1 = (TextView) findViewById(R.id.dayOne);
+        TextView Day2 = (TextView) findViewById(R.id.dayTwo);
+        TextView Day3 = (TextView) findViewById(R.id.dayThree);
+        TextView Day4 = (TextView) findViewById(R.id.dayFour);
+        TextView Day5 = (TextView) findViewById(R.id.dayFive);
+        TextView Day6 = (TextView) findViewById(R.id.daySix);
+        TextView Day7 = (TextView) findViewById(R.id.daySeven);
+
+        TextView Date1 = (TextView) findViewById(R.id.dateOne);
+        TextView Date2 = (TextView) findViewById(R.id.dateTwo);
+        TextView Date3 = (TextView) findViewById(R.id.dateThree);
+        TextView Date4 = (TextView) findViewById(R.id.dateFour);
+        TextView Date5 = (TextView) findViewById(R.id.dateFive);
+        TextView Date6 = (TextView) findViewById(R.id.dateSix);
+        TextView Date7 = (TextView) findViewById(R.id.dateSeven);
+
+        TextView Event2_1 = (TextView) findViewById(R.id.textView2_1);
+        TextView Event2_2 = (TextView) findViewById(R.id.textView2_2);
+        TextView Event3_1 = (TextView) findViewById(R.id.textView3_1);
+        TextView Event5_1 = (TextView) findViewById(R.id.textView5_1);
+        TextView Event5_2 = (TextView) findViewById(R.id.textView5_2);
+        TextView Event5_3 = (TextView) findViewById(R.id.textView5_3);
+        TextView Event6_1 = (TextView) findViewById(R.id.textView6_1);
+        TextView Event7_1 = (TextView) findViewById(R.id.textView7_1);
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -28,7 +58,6 @@ public class EventScreen extends AppCompatActivity {
             }
 
         });
-
 
     }
 
