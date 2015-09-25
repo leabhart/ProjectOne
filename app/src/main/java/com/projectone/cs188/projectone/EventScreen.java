@@ -43,6 +43,30 @@ public class EventScreen extends AppCompatActivity {
         TextView Event5_3 = (TextView) findViewById(R.id.textView5_3);
         TextView Event6_1 = (TextView) findViewById(R.id.textView6_1);
         TextView Event7_1 = (TextView) findViewById(R.id.textView7_1);
+
+        Day1.setTypeface(robotoLight);
+        Day2.setTypeface(robotoLight);
+        Day3.setTypeface(robotoLight);
+        Day4.setTypeface(robotoLight);
+        Day5.setTypeface(robotoLight);
+        Day6.setTypeface(robotoLight);
+        Day7.setTypeface(robotoLight);
+
+        Date1.setTypeface(robotoMedium);
+        Date2.setTypeface(robotoMedium);
+        Date3.setTypeface(robotoMedium);
+        Date4.setTypeface(robotoMedium);
+        Date5.setTypeface(robotoMedium);
+        Date6.setTypeface(robotoMedium);
+        Date7.setTypeface(robotoMedium);
+
+        Event2_1.setTypeface(robotoRegular);
+        Event2_2.setTypeface(robotoRegular);
+        Event3_1.setTypeface(robotoRegular);
+        Event5_1.setTypeface(robotoRegular);
+        Event5_2.setTypeface(robotoRegular);
+        Event5_3.setTypeface(robotoRegular);
+        Event6_1.setTypeface(robotoRegular);
     }
 
     @Override
