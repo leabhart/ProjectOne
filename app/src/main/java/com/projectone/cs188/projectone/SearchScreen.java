@@ -1,10 +1,14 @@
 package com.projectone.cs188.projectone;
 
+import android.content.Intent;
 import android.graphics.Typeface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 public class SearchScreen extends AppCompatActivity {
@@ -16,7 +20,233 @@ public class SearchScreen extends AppCompatActivity {
 
         applyTypeface();
 
+        TextView resultPage0928 = (TextView) findViewById(R.id.date0928);
+        resultPage0928.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //Toast -- no result!
+            }
+        });
+
+        TextView resultPage0929 = (TextView) findViewById(R.id.date0929);
+        resultPage0929.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                sendToResult0929();
+            }
+        });
+
+        TextView resultPage0930 = (TextView) findViewById(R.id.date0930);
+        resultPage0930.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                sendToResult0930();
+            }
+        });
+
+        TextView resultPage1001 = (TextView) findViewById(R.id.date1001);
+        resultPage1001.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //Toast -- no result!
+            }
+        });
+
+        TextView resultPage1002 = (TextView) findViewById(R.id.date1002);
+        resultPage1002.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                sendToResult1002();
+            }
+        });
+
+        TextView resultPage1003 = (TextView) findViewById(R.id.date1003);
+        resultPage1003.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                sendToResult1003();
+            }
+        });
+
+        TextView resultPage1004 = (TextView) findViewById(R.id.date1004);
+        resultPage1004.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                sendToResult1004();
+            }
+        });
+
+        ImageView resultCatCircus = (ImageView) findViewById(R.id.circusbutton);
+        resultCatCircus.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                sendToCatCircus();
+            }
+        });
+
+        ImageView resultCatCulinary = (ImageView) findViewById(R.id.culinarybutton);
+        resultCatCulinary.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                sendToCatCulinary();
+            }
+        });
+
+        ImageView resultCatDance = (ImageView) findViewById(R.id.dancebutton);
+        resultCatDance.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                sendToCatDance();
+            }
+        });
+
+        ImageView resultCatEd = (ImageView) findViewById(R.id.educationbutton);
+        resultCatEd.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                sendToCatEd();
+            }
+        });
+
+        ImageView resultCatFilm = (ImageView) findViewById(R.id.filmbutton);
+        resultCatFilm.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                sendToCatFilm();
+            }
+        });
+
+        ImageView resultCatLit = (ImageView) findViewById(R.id.literarybutton);
+        resultCatLit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                sendToCatLit();
+            }
+        });
+
+        ImageView resultCatMusic = (ImageView) findViewById(R.id.musicbutton);
+        resultCatMusic.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                sendToCatMusic();
+            }
+        });
+
+        ImageView resultCatSocial = (ImageView) findViewById(R.id.socialbutton);
+        resultCatSocial.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                sendToCatSocial();
+            }
+        });
+
+        ImageView resultCatTheater = (ImageView) findViewById(R.id.theaterbutton);
+        resultCatTheater.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                sendToCatTheater();
+            }
+        });
+
+        ImageView resultCatVA = (ImageView) findViewById(R.id.visualartbutton);
+        resultCatVA.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                sendToCatVA();
+            }
+        });
     }
+
+    private void sendToResult0929()
+    {
+        //Intent intent = new Intent(this, SearchResultScreen0929.class);
+        //startActivity(intent);
+    }
+
+    private void sendToResult0930()
+    {
+        //Intent intent = new Intent(this, SearchResultScreen0930.class);
+        //startActivity(intent);
+    }
+
+    private void sendToResult1002()
+    {
+        //Intent intent = new Intent(this, SearchResultScreen1002.class);
+        //startActivity(intent);
+    }
+
+    private void sendToResult1003()
+    {
+        //Intent intent = new Intent(this, SearchResultScreen1003.class);
+        //startActivity(intent);
+    }
+
+    private void sendToResult1004()
+    {
+        //Intent intent = new Intent(this, SearchResultScreen1004.class);
+        //startActivity(intent);
+    }
+
+    private void sendToCatCircus()
+    {
+        //Intent intent = new Intent(this, SearchResultCircus.class);
+        //startActivity(intent);
+    }
+
+    private void sendToCatCulinary()
+    {
+        //Intent intent = new Intent(this, SearchResultCulinary.class);
+        //startActivity(intent);
+    }
+
+    private void sendToCatDance()
+    {
+        //Intent intent = new Intent(this, SearchResultDance.class);
+        //startActivity(intent);
+    }
+
+    private void sendToCatEd()
+    {
+        //Intent intent = new Intent(this, SearchResultEd.class);
+        //startActivity(intent);
+    }
+
+    private void sendToCatFilm()
+    {
+        //Intent intent = new Intent(this, SearchResultFilm.class);
+        //startActivity(intent);
+    }
+
+    private void sendToCatLit()
+    {
+        //Intent intent = new Intent(this, SearchResultLit.class);
+        //startActivity(intent);
+    }
+
+    private void sendToCatMusic()
+    {
+        //Intent intent = new Intent(this, SearchResultMusic.class);
+        //startActivity(intent);
+    }
+
+    private void sendToCatSocial()
+    {
+        //Intent intent = new Intent(this, SearchResultSocial.class);
+        //startActivity(intent);
+    }
+
+    private void sendToCatTheater()
+    {
+        //Intent intent = new Intent(this, SearchResultTheater.class);
+        //startActivity(intent);
+    }
+
+    private void sendToCatVA()
+    {
+        //Intent intent = new Intent(this, SearchResultVA.class);
+        //startActivity(intent);
+    }
+
 
     private void applyTypeface(){
         Typeface robotoLight = Typeface.createFromAsset(getAssets(), "fonts/robotolight.ttf");
@@ -29,7 +259,6 @@ public class SearchScreen extends AppCompatActivity {
         TextView weekdayTH = (TextView) findViewById(R.id.weekday5);
         TextView weekdayF = (TextView) findViewById(R.id.weekday6);
         TextView weekdayS = (TextView) findViewById(R.id.weekday7);
-        TextView date927 = (TextView) findViewById(R.id.date0927);
         TextView date928 = (TextView) findViewById(R.id.date0928);
         TextView date929 = (TextView) findViewById(R.id.date0929);
         TextView date930 = (TextView) findViewById(R.id.date0930);
@@ -37,12 +266,7 @@ public class SearchScreen extends AppCompatActivity {
         TextView date102 = (TextView) findViewById(R.id.date1002);
         TextView date103 = (TextView) findViewById(R.id.date1003);
         TextView date104 = (TextView) findViewById(R.id.date1004);
-        TextView date105 = (TextView) findViewById(R.id.date1005);
-        TextView date106 = (TextView) findViewById(R.id.date1006);
-        TextView date107 = (TextView) findViewById(R.id.date1007);
-        TextView date108 = (TextView) findViewById(R.id.date1008);
-        TextView date109 = (TextView) findViewById(R.id.date1009);
-        TextView date1010 = (TextView) findViewById(R.id.date1010);
+
         weekdaySU.setTypeface(robotoRegular);
         weekdayM.setTypeface(robotoRegular);
         weekdayT.setTypeface(robotoRegular);
@@ -50,7 +274,6 @@ public class SearchScreen extends AppCompatActivity {
         weekdayTH.setTypeface(robotoRegular);
         weekdayF.setTypeface(robotoRegular);
         weekdayS.setTypeface(robotoRegular);
-        date927.setTypeface(robotoRegular);
         date928.setTypeface(robotoRegular);
         date929.setTypeface(robotoRegular);
         date930.setTypeface(robotoRegular);
@@ -58,12 +281,6 @@ public class SearchScreen extends AppCompatActivity {
         date102.setTypeface(robotoRegular);
         date103.setTypeface(robotoRegular);
         date104.setTypeface(robotoRegular);
-        date105.setTypeface(robotoRegular);
-        date106.setTypeface(robotoRegular);
-        date107.setTypeface(robotoRegular);
-        date108.setTypeface(robotoRegular);
-        date109.setTypeface(robotoRegular);
-        date1010.setTypeface(robotoRegular);
 
     }
 

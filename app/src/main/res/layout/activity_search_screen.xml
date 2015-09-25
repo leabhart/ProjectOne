@@ -13,7 +13,7 @@
         android:layout_width="58px"
         android:textSize="15sp"
         android:textColor="#030303"
-        android:text="SU "
+        android:text="M "
         android:layout_marginTop="75dp"
         android:gravity="center_horizontal"
         android:layout_alignParentTop="true"
@@ -28,7 +28,7 @@
         android:layout_width="58px"
         android:textSize="15sp"
         android:textColor="#030303"
-        android:text="M "
+        android:text="T "
         android:gravity="center_horizontal"
         android:layout_alignTop="@+id/weekday1"
         android:layout_toRightOf="@+id/weekday1"
@@ -41,7 +41,7 @@
         android:layout_width="58px"
         android:textSize="15sp"
         android:textColor="#030303"
-        android:text="T "
+        android:text="W "
         android:gravity="center_horizontal"
         android:layout_alignTop="@+id/weekday2"
         android:layout_toRightOf="@+id/weekday2"
@@ -54,7 +54,7 @@
         android:layout_width="58px"
         android:textSize="15sp"
         android:textColor="#030303"
-        android:text="W "
+        android:text="TH "
         android:gravity="center_horizontal"
         android:layout_alignTop="@+id/weekday3"
         android:layout_toRightOf="@+id/weekday3"
@@ -67,7 +67,7 @@
         android:layout_width="58px"
         android:textSize="15sp"
         android:textColor="#030303"
-        android:text="TH "
+        android:text="F "
         android:gravity="center_horizontal"
         android:layout_alignTop="@+id/weekday4"
         android:layout_toRightOf="@+id/weekday4"
@@ -80,7 +80,7 @@
         android:layout_width="58px"
         android:textSize="15sp"
         android:textColor="#030303"
-        android:text="F "
+        android:text="S "
         android:gravity="center_horizontal"
         android:layout_alignTop="@+id/weekday5"
         android:layout_toRightOf="@+id/weekday5"
@@ -93,7 +93,7 @@
         android:layout_width="58px"
         android:textSize="15sp"
         android:textColor="#030303"
-        android:text="S "
+        android:text="SU "
         android:gravity="center_horizontal"
         android:layout_alignTop="@+id/weekday6"
         android:layout_toRightOf="@+id/weekday6"
@@ -104,27 +104,15 @@
     <TextView
         android:layout_width="50dp"
         android:layout_height="wrap_content"
-        android:text="9/27"
-        android:textColor="#e91e63"
-        android:id="@+id/date0927"
-        android:background="@drawable/border"
+        android:text="9/28"
+        android:textColor="#f48fb1"
+        android:id="@+id/date0928"
+        android:background="@drawable/fadedborder"
         android:layout_marginTop="30dp"
         android:gravity="center_horizontal"
         android:layout_below="@+id/weekday1"
         android:layout_alignRight="@+id/weekday1"
         android:layout_alignEnd="@+id/weekday1" />
-
-    <TextView
-        android:layout_width="50dp"
-        android:layout_height="wrap_content"
-        android:text="9/28"
-        android:textColor="#f48fb1"
-        android:id="@+id/date0928"
-        android:background="@drawable/border"
-        android:gravity="center_horizontal"
-        android:layout_alignTop="@+id/date0927"
-        android:layout_toRightOf="@+id/date0927"
-        android:layout_marginLeft="14dp" />
 
     <TextView
         android:layout_width="50dp"
@@ -156,7 +144,7 @@
         android:text="10/1"
         android:textColor="#f48fb1"
         android:id="@+id/date1001"
-        android:background="@drawable/border"
+        android:background="@drawable/fadedborder"
         android:gravity="center_horizontal"
         android:layout_alignTop="@+id/date0930"
         android:layout_toRightOf="@+id/date0930"
@@ -192,91 +180,11 @@
         android:text="10/4"
         android:textColor="#e91e63"
         android:id="@+id/date1004"
-        android:gravity="center_horizontal"
         android:background="@drawable/border"
-        android:layout_below="@+id/date0927"
-        android:layout_alignLeft="@+id/date0927"
-        android:layout_alignStart="@+id/date0927"
-        android:layout_marginTop="25dp" />
-
-    <TextView
-        android:layout_width="50dp"
-        android:layout_height="wrap_content"
-        android:text="10/5"
-        android:textColor="#e91e63"
-        android:id="@+id/date1005"
         android:gravity="center_horizontal"
-        android:background="@drawable/border"
-        android:layout_below="@+id/date0928"
-        android:layout_alignLeft="@+id/date0928"
-        android:layout_alignStart="@+id/date0928"
-        android:layout_marginTop="25dp" />
-
-    <TextView
-        android:layout_width="50dp"
-        android:layout_height="wrap_content"
-        android:text="10/6"
-        android:textColor="#e91e63"
-        android:id="@+id/date1006"
-        android:gravity="center_horizontal"
-        android:background="@drawable/border"
-        android:layout_below="@+id/date0929"
-        android:layout_alignLeft="@+id/date0929"
-        android:layout_alignStart="@+id/date0929"
-        android:layout_marginTop="25dp" />
-
-    <TextView
-        android:layout_width="50dp"
-        android:layout_height="wrap_content"
-        android:text="10/7"
-        android:textColor="#e91e63"
-        android:id="@+id/date1007"
-        android:gravity="center_horizontal"
-        android:background="@drawable/border"
-        android:layout_below="@+id/date0930"
-        android:layout_alignLeft="@+id/date0930"
-        android:layout_alignStart="@+id/date0930"
-        android:layout_marginTop="25dp" />
-
-    <TextView
-        android:layout_width="50dp"
-        android:layout_height="wrap_content"
-        android:text="10/8"
-        android:textColor="#e91e63"
-        android:id="@+id/date1008"
-        android:gravity="center_horizontal"
-        android:background="@drawable/border"
-        android:layout_below="@+id/date1001"
-        android:layout_alignLeft="@+id/date1001"
-        android:layout_alignStart="@+id/date1001"
-        android:layout_marginTop="25dp" />
-
-    <TextView
-        android:layout_width="50dp"
-        android:layout_height="wrap_content"
-        android:text="10/9"
-        android:textColor="#e91e63"
-        android:id="@+id/date1009"
-        android:gravity="center_horizontal"
-        android:background="@drawable/border"
-        android:layout_below="@+id/date1002"
-        android:layout_alignLeft="@+id/date1002"
-        android:layout_alignStart="@+id/date1002"
-        android:layout_marginTop="25dp" />
-
-    <TextView
-        android:layout_width="50dp"
-        android:layout_height="wrap_content"
-        android:text="10/10"
-        android:textColor="#e91e63"
-        android:id="@+id/date1010"
-        android:gravity="center_horizontal"
-        android:background="@drawable/border"
-        android:layout_below="@+id/date1003"
-        android:layout_alignLeft="@+id/date1003"
-        android:layout_alignStart="@+id/date1003"
-        android:layout_marginTop="25dp" />
-
+        android:layout_alignTop="@+id/date1003"
+        android:layout_toRightOf="@+id/date1003"
+        android:layout_marginLeft="14dp" />
 
 
 
