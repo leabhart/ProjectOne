@@ -28,7 +28,7 @@
                 android:id="@+id/imageButton"
                 android:scaleType="fitCenter"
                 android:adjustViewBounds="true"
-                android:src="@drawable/magnifier"
+                android:src="@drawable/filterbutton"
                 android:maxWidth="@dimen/search_button_size"
                 android:maxHeight="@dimen/search_button_size"
                 android:layout_span="3"
