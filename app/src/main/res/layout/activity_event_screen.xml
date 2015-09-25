@@ -83,6 +83,41 @@
         </TableRow>
 
         <TableRow
+            android:id="@+id/InfoTableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="onClickRowOne"
+            >
+            <RelativeLayout>
+                <TextView
+                    android:id="@+id/dayOneTest"
+                    android:layout_width="@dimen/activity_layout_width"
+                    android:layout_height="@dimen/activity_layout_height"
+                    android:layout_marginLeft="@dimen/activity_double_horizontal_margin"
+                    android:layout_marginRight="@dimen/activity_double_horizontal_margin"
+                    android:layout_marginTop="@dimen/activity_vertical_margin"
+                    android:layout_marginBottom="@dimen/activity_vertical_margin"
+                    android:text="@string/day_of_week_one"
+                    android:textSize="@dimen/activity_day_text" />
+
+                <TextView
+                    android:id="@+id/dateOneTest"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/dayOneTest"
+                    android:layout_marginStart="@dimen/activity_margin_start"
+                    android:layout_marginLeft="@dimen/activity_double_horizontal_margin"
+                    android:layout_marginRight="@dimen/activity_double_horizontal_margin"
+                    android:layout_marginTop="@dimen/activity_vertical_margin"
+                    android:layout_marginBottom="@dimen/activity_vertical_margin"
+                    android:text="@string/date_one"
+                    android:textSize="@dimen/activity_date_text"
+                    android:textStyle="bold"/>
+            </RelativeLayout>
+
+        </TableRow>
+
+        <TableRow
             android:id="@+id/tableRow2"
             android:layout_width="match_parent"
             android:layout_height="match_parent"

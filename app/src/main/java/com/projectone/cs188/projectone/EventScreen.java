@@ -10,6 +10,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.ImageButton;
+import android.widget.TableRow;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -68,6 +69,20 @@ public class EventScreen extends AppCompatActivity {
         Event5_3.setTypeface(robotoRegular);
         Event6_1.setTypeface(robotoRegular);
         Event7_1.setTypeface(robotoMedium);
+    }
+
+
+    public void onClickRowOne(View v) {
+        //when row is clicked show or hide additional info
+        int RowOneClick = R.id.InfoTableRow1;
+
+        TableRow RowOneVisibility = (TableRow) findViewById(RowOneClick);
+
+        if (RowOneVisibility.getVisibility() == View.VISIBLE) {
+            RowOneVisibility.setVisibility(View.GONE);
+        } else {
+            RowOneVisibility.setVisibility(View.VISIBLE);
+        }
     }
 
     @Override
