@@ -23,14 +23,17 @@
 
 
     <!-- Event Strings -->
-    <string name="day_two_event_one">SUMMERMUSIC PLAYS "IN C"</string>
-    <string name="day_two_event_two">TEAM TRIVIA</string>
-    <string name="day_three_event_one">MORNING CIRCUS</string>
-    <string name="day_five_event_one">NEW ORLEANS JAZZ PARTY</string>
-    <string name="day_five_event_two">HAIKU DEATHMATCH</string>
-    <string name="day_five_event_three">DISCO DANCE PARTY</string>
-    <string name="day_six_event_one">COMEDY FESTIVAL</string>
-    <string name="day_seven_event_one">DAN TEDESCO &amp; BROTHER TRUCKER</string>
+        <!-- event 1 -->
+        <string name="e_1_title">SUMMERMUSIC PLAYS "IN C"</string>
+
+        <!-- event 2 -->
+        <string name="e_2_title">TEAM TRIVIA</string>
+        <string name="e_3_title">MORNING CIRCUS</string>
+        <string name="e_4_title">NEW ORLEANS JAZZ PARTY</string>
+        <string name="e_5_title">HAIKU DEATHMATCH</string>
+        <string name="e_6_title">DISCO DANCE PARTY</string>
+        <string name="e_7_title">COMEDY FESTIVAL</string>
+        <string name="e_8_title">DAN TEDESCO &amp; BROTHER TRUCKER</string>
 
     <!-- SearchScreen Strings -->
     <string name="title_activity_search_screen">Events Filter</string>
