@@ -21,6 +21,8 @@
     <string name="date_six">3</string>
     <string name="date_seven">4</string>
 
+
+    <!-- Event Strings -->
     <string name="day_two_event_one">SUMMERMUSIC PLAYS "IN C"</string>
     <string name="day_two_event_two">TEAM TRIVIA</string>
     <string name="day_three_event_one">MORNING CIRCUS</string>
@@ -31,23 +33,22 @@
     <string name="day_seven_event_one">DAN TEDESCO &amp; BROTHER TRUCKER</string>
 
     <!-- SearchScreen Strings -->
-    <string name="title_activity_search_screen">SearchScreen</string>
-    <string name="title_activity_search_result_screen">SearchResultScreen</string>
+    <string name="title_activity_search_screen">Events Filter</string>
 
-    <string name="hello_world">Hello world!</string>
-    <string name="title_activity_search_result_screen0929">SearchResultScreen0929</string>
-    <string name="title_activity_search_result_screen0930">SearchResultScreen0930</string>
-    <string name="title_activity_search_result_screen1002">SearchResultScreen1002</string>
-    <string name="title_activity_search_result_screen1004">SearchResultScreen1004</string>
-    <string name="title_activity_search_result_circus">SearchResultCircus</string>
-    <string name="title_activity_search_result_culinary">SearchResultCulinary</string>
-    <string name="title_activity_search_result_dance">SearchResultDance</string>
-    <string name="title_activity_search_result_ed">SearchResultEd</string>
-    <string name="title_activity_search_result_film">SearchResultFilm</string>
-    <string name="title_activity_search_result_lit">SearchResultLit</string>
-    <string name="title_activity_search_result_music">SearchResultMusic</string>
-    <string name="title_activity_search_result_social">SearchResultSocial</string>
-    <string name="title_activity_search_result_theater">SearchResultTheater</string>
-    <string name="title_activity_search_result_v">SearchResultVA</string>
+    <!-- Faked search results -->
+    <string name="title_activity_search_result_screen0929">Events for 9/29</string>
+    <string name="title_activity_search_result_screen0930">Events for 9/30</string>
+    <string name="title_activity_search_result_screen1002">Events for 10/2</string>
+    <string name="title_activity_search_result_screen1004">Events for 10/4</string>
+    <string name="title_activity_search_result_circus">Events for Circus</string>
+    <string name="title_activity_search_result_culinary">Events for Culinary</string>
+    <string name="title_activity_search_result_dance">Events for Dance</string>
+    <string name="title_activity_search_result_ed">Events for Education</string>
+    <string name="title_activity_search_result_film">Events for Film</string>
+    <string name="title_activity_search_result_lit">Events for Literary</string>
+    <string name="title_activity_search_result_music">Events for Music</string>
+    <string name="title_activity_search_result_social">Events for Social</string>
+    <string name="title_activity_search_result_theater">Events for Theater</string>
+    <string name="title_activity_search_result_v">Events for Visual Art</string>
 
 </resources>

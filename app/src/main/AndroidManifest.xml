@@ -27,14 +27,6 @@
                 android:value="com.projectone.cs188.projectone.EventScreen" />
         </activity>
         <activity
-            android:name=".SearchResultScreen"
-            android:label="@string/title_activity_search_result_screen"
-            android:parentActivityName=".SearchScreen" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.projectone.cs188.projectone.SearchScreen" />
-        </activity>
-        <activity
             android:name=".SearchResultScreen0929"
             android:label="@string/title_activity_search_result_screen0929"
             android:parentActivityName=".SearchScreen" >
