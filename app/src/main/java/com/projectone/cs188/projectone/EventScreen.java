@@ -7,7 +7,11 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class EventScreen extends AppCompatActivity {
 
@@ -16,9 +20,20 @@ public class EventScreen extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_event_screen);
 
+        ImageButton toSearchButton = (ImageButton) findViewById(R.id.imageButton);
+        toSearchButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                sendToSearchScreen();
+            }
+
+        });
+
+
     }
 
-    public void toSearchScreen(View view) {
+    private void sendToSearchScreen()
+    {
         Intent intent = new Intent(this, SearchScreen.class);
         startActivity(intent);
     }
