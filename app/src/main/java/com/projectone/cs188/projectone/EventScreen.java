@@ -67,6 +67,7 @@ public class EventScreen extends AppCompatActivity {
         Event5_2.setTypeface(robotoRegular);
         Event5_3.setTypeface(robotoRegular);
         Event6_1.setTypeface(robotoRegular);
+        Event7_1.setTypeface(robotoMedium);
     }
 
     @Override
