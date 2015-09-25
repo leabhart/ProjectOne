@@ -35,5 +35,19 @@
     <string name="title_activity_search_result_screen">SearchResultScreen</string>
 
     <string name="hello_world">Hello world!</string>
+    <string name="title_activity_search_result_screen0929">SearchResultScreen0929</string>
+    <string name="title_activity_search_result_screen0930">SearchResultScreen0930</string>
+    <string name="title_activity_search_result_screen1002">SearchResultScreen1002</string>
+    <string name="title_activity_search_result_screen1004">SearchResultScreen1004</string>
+    <string name="title_activity_search_result_circus">SearchResultCircus</string>
+    <string name="title_activity_search_result_culinary">SearchResultCulinary</string>
+    <string name="title_activity_search_result_dance">SearchResultDance</string>
+    <string name="title_activity_search_result_ed">SearchResultEd</string>
+    <string name="title_activity_search_result_film">SearchResultFilm</string>
+    <string name="title_activity_search_result_lit">SearchResultLit</string>
+    <string name="title_activity_search_result_music">SearchResultMusic</string>
+    <string name="title_activity_search_result_social">SearchResultSocial</string>
+    <string name="title_activity_search_result_theater">SearchResultTheater</string>
+    <string name="title_activity_search_result_v">SearchResultVA</string>
 
 </resources>
