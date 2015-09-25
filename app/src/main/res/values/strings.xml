@@ -25,15 +25,115 @@
     <!-- Event Strings -->
         <!-- event 1 -->
         <string name="e_1_title">SUMMERMUSIC PLAYS "IN C"</string>
+        <string name="e_1_day">TUE</string>
+        <string name="e_1_month">Sept</string>
+        <string name="e_1_date">29</string>
+        <string name="e_1_time">7:30 PM</string>
+        <string name="e_1_venue">KUM &amp; GO THEATER</string>
+        <string name="e_1_category">Music</string>
+        <string name="e_1_description">SOME REALLY GOOD DESCRIPTION</string>
+        <string name="e_1_more_link">http://desmoinessocialclub.org/events/summermusic-plays-in-c/</string>
+        <string name="e_1_ticket">AT THE DOOR</string>
+        <string name="e_1_price">$10</string>
+        <string name="e_1_age"></string>
+
 
         <!-- event 2 -->
         <string name="e_2_title">TEAM TRIVIA</string>
+        <string name="e_2_day"></string>
+        <string name="e_2_month"></string>
+        <string name="e_2_date"></string>
+        <string name="e_2_time"></string>
+        <string name="e_2_venue"></string>
+        <string name="e_2_category"></string>
+        <string name="e_2_description">SOME REALLY GOOD DESCRIPTION</string>
+        <string name="e_2_more_link"></string>
+        <string name="e_2_ticket"></string>
+        <string name="e_2_price"></string>
+        <string name="e_2_age"></string>
+        <!-- event 3 -->
         <string name="e_3_title">MORNING CIRCUS</string>
+        <string name="e_3_day"></string>
+        <string name="e_3_month"></string>
+        <string name="e_3_date"></string>
+        <string name="e_3_time"></string>
+        <string name="e_3_venue"></string>
+        <string name="e_3_category"></string>
+        <string name="e_3_description">SOME REALLY GOOD DESCRIPTION</string>
+        <string name="e_3_more_link"></string>
+        <string name="e_3_ticket"></string>
+        <string name="e_3_price"></string>
+        <string name="e_3_age"></string>
+
+        <!-- event 4 -->
         <string name="e_4_title">NEW ORLEANS JAZZ PARTY</string>
+        <string name="e_4_day"></string>
+        <string name="e_4_month"></string>
+        <string name="e_4_date"></string>
+        <string name="e_4_time"></string>
+        <string name="e_4_venue"></string>
+        <string name="e_4_category"></string>
+        <string name="e_4_description">SOME REALLY GOOD DESCRIPTION</string>
+        <string name="e_4_more_link"></string>
+        <string name="e_4_ticket"></string>
+        <string name="e_4_price"></string>
+        <string name="e_4_age"></string>
+
+        <!-- event 5 -->
         <string name="e_5_title">HAIKU DEATHMATCH</string>
+        <string name="e_5_day"></string>
+        <string name="e_5_month"></string>
+        <string name="e_5_date"></string>
+        <string name="e_5_time"></string>
+        <string name="e_5_venue"></string>
+        <string name="e_5_category"></string>
+        <string name="e_5_description">SOME REALLY GOOD DESCRIPTION</string>
+        <string name="e_5_more_link"></string>
+        <string name="e_5_ticket"></string>
+        <string name="e_5_price"></string>
+        <string name="e_5_age"></string>
+
+        <!-- event 6 -->
         <string name="e_6_title">DISCO DANCE PARTY</string>
+        <string name="e_6_day"></string>
+        <string name="e_6_month"></string>
+        <string name="e_6_date"></string>
+        <string name="e_6_time"></string>
+        <string name="e_6_venue"></string>
+        <string name="e_6_category"></string>
+        <string name="e_6_description">SOME REALLY GOOD DESCRIPTION</string>
+        <string name="e_6_more_link"></string>
+        <string name="e_6_ticket"></string>
+        <string name="e_6_price"></string>
+        <string name="e_6_age"></string>
+
+        <!-- event 7 -->
         <string name="e_7_title">COMEDY FESTIVAL</string>
+        <string name="e_7_day"></string>
+        <string name="e_7_month"></string>
+        <string name="e_7_date"></string>
+        <string name="e_7_time"></string>
+        <string name="e_7_venue"></string>
+        <string name="e_7_category"></string>
+        <string name="e_7_description">SOME REALLY GOOD DESCRIPTION</string>
+        <string name="e_7_more_link"></string>
+        <string name="e_7_ticket"></string>
+        <string name="e_7_price"></string>
+        <string name="e_7_age"></string>
+
+        <!-- event 8 -->
         <string name="e_8_title">DAN TEDESCO &amp; BROTHER TRUCKER</string>
+        <string name="e_8_day"></string>
+        <string name="e_8_month"></string>
+        <string name="e_8_date"></string>
+        <string name="e_8_time"></string>
+        <string name="e_8_venue"></string>
+        <string name="e_8_category"></string>
+        <string name="e_8_description">SOME REALLY GOOD DESCRIPTION</string>
+        <string name="e_8_more_link"></string>
+        <string name="e_8_ticket"></string>
+        <string name="e_8_price"></string>
+        <string name="e_8_age"></string>
 
     <!-- SearchScreen Strings -->
     <string name="title_activity_search_screen">Events Filter</string>
