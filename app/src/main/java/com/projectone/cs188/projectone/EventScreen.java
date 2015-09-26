@@ -69,18 +69,71 @@ public class EventScreen extends AppCompatActivity {
     }
 
 
-    public void onClickRowOne(View v) {
+    public void onClickRowTwo(View v) {
         //when row is clicked show or hide additional info
-        int RowOneClick = R.id.InfoTableRow1;
+        int RowTwoClick1 = R.id.tableInfoRow2_1;
 
-        TableRow RowOneVisibility = (TableRow) findViewById(RowOneClick);
+        TableRow RowTwoVisibility = (TableRow) findViewById(RowTwoClick1);
 
-        if (RowOneVisibility.getVisibility() == View.VISIBLE) {
-            RowOneVisibility.setVisibility(View.GONE);
+        if (RowTwoVisibility.getVisibility() == View.VISIBLE) {
+            RowTwoVisibility.setVisibility(View.GONE);
         } else {
-            RowOneVisibility.setVisibility(View.VISIBLE);
+            RowTwoVisibility.setVisibility(View.VISIBLE);
         }
     }
+
+    public void onClickRowThree(View v) {
+        //when row is clicked show or hide additional info
+        int RowTwoClick1 = R.id.tableInfoRow3_1;
+
+        TableRow RowTwoVisibility = (TableRow) findViewById(RowTwoClick1);
+
+        if (RowTwoVisibility.getVisibility() == View.VISIBLE) {
+            RowTwoVisibility.setVisibility(View.GONE);
+        } else {
+            RowTwoVisibility.setVisibility(View.VISIBLE);
+        }
+    }
+
+    public void onClickRowFive(View v) {
+        //when row is clicked show or hide additional info
+        int RowTwoClick1 = R.id.tableInfoRow5_1;
+
+        TableRow RowTwoVisibility = (TableRow) findViewById(RowTwoClick1);
+
+        if (RowTwoVisibility.getVisibility() == View.VISIBLE) {
+            RowTwoVisibility.setVisibility(View.GONE);
+        } else {
+            RowTwoVisibility.setVisibility(View.VISIBLE);
+        }
+    }
+
+    public void onClickRowSix(View v) {
+        //when row is clicked show or hide additional info
+        int RowTwoClick1 = R.id.tableInfoRow6_1;
+
+        TableRow RowTwoVisibility = (TableRow) findViewById(RowTwoClick1);
+
+        if (RowTwoVisibility.getVisibility() == View.VISIBLE) {
+            RowTwoVisibility.setVisibility(View.GONE);
+        } else {
+            RowTwoVisibility.setVisibility(View.VISIBLE);
+        }
+    }
+
+    public void onClickRowSeven(View v) {
+        //when row is clicked show or hide additional info
+        int RowTwoClick1 = R.id.tableInfoRow7_1;
+
+        TableRow RowTwoVisibility = (TableRow) findViewById(RowTwoClick1);
+
+        if (RowTwoVisibility.getVisibility() == View.VISIBLE) {
+            RowTwoVisibility.setVisibility(View.GONE);
+        } else {
+            RowTwoVisibility.setVisibility(View.VISIBLE);
+        }
+    }
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
