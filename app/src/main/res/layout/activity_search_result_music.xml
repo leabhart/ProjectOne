@@ -92,7 +92,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text=""
+                    android:text="@string/e_1_age"
                     android:id="@+id/age_1"
                     android:textSize="@dimen/result_age"
                     android:textColor="@color/black"
@@ -116,7 +116,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text=""
+                    android:text="@string/e_1_price"
                     android:id="@+id/price_1"
                     android:textSize="@dimen/result_price"
                     android:textColor="@color/black"
