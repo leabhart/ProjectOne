@@ -80,57 +80,87 @@ public class EventScreen extends AppCompatActivity {
         } else {
             RowTwoVisibility.setVisibility(View.VISIBLE);
         }
+
+        int RowTwoClick2 = R.id.tableInfoRow2_2;
+
+        TableRow RowTwo2Visibility = (TableRow) findViewById(RowTwoClick2);
+
+        if (RowTwo2Visibility.getVisibility() == View.VISIBLE) {
+            RowTwo2Visibility.setVisibility(View.GONE);
+        } else {
+            RowTwo2Visibility.setVisibility(View.VISIBLE);
+        }
     }
 
     public void onClickRowThree(View v) {
         //when row is clicked show or hide additional info
-        int RowTwoClick1 = R.id.tableInfoRow3_1;
+        int RowThreeClick1 = R.id.tableInfoRow3_1;
 
-        TableRow RowTwoVisibility = (TableRow) findViewById(RowTwoClick1);
+        TableRow RowThreeVisibility = (TableRow) findViewById(RowThreeClick1);
 
-        if (RowTwoVisibility.getVisibility() == View.VISIBLE) {
-            RowTwoVisibility.setVisibility(View.GONE);
+        if (RowThreeVisibility.getVisibility() == View.VISIBLE) {
+            RowThreeVisibility.setVisibility(View.GONE);
         } else {
-            RowTwoVisibility.setVisibility(View.VISIBLE);
+            RowThreeVisibility.setVisibility(View.VISIBLE);
         }
     }
 
     public void onClickRowFive(View v) {
         //when row is clicked show or hide additional info
-        int RowTwoClick1 = R.id.tableInfoRow5_1;
+        int RowFiveClick1 = R.id.tableInfoRow5_1;
 
-        TableRow RowTwoVisibility = (TableRow) findViewById(RowTwoClick1);
+        TableRow RowFiveVisibility = (TableRow) findViewById(RowFiveClick1);
 
-        if (RowTwoVisibility.getVisibility() == View.VISIBLE) {
-            RowTwoVisibility.setVisibility(View.GONE);
+        if (RowFiveVisibility.getVisibility() == View.VISIBLE) {
+            RowFiveVisibility.setVisibility(View.GONE);
         } else {
-            RowTwoVisibility.setVisibility(View.VISIBLE);
+            RowFiveVisibility.setVisibility(View.VISIBLE);
+        }
+
+        int RowFiveClick2 = R.id.tableInfoRow5_2;
+
+        TableRow RowFive2Visibility = (TableRow) findViewById(RowFiveClick2);
+
+        if (RowFive2Visibility.getVisibility() == View.VISIBLE) {
+            RowFive2Visibility.setVisibility(View.GONE);
+        } else {
+            RowFive2Visibility.setVisibility(View.VISIBLE);
+        }
+
+        int RowFiveClick3 = R.id.tableInfoRow5_3;
+
+        TableRow RowFive3Visibility = (TableRow) findViewById(RowFiveClick3);
+
+        if (RowFive3Visibility.getVisibility() == View.VISIBLE) {
+            RowFive3Visibility.setVisibility(View.GONE);
+        } else {
+            RowFive3Visibility.setVisibility(View.VISIBLE);
         }
     }
 
     public void onClickRowSix(View v) {
         //when row is clicked show or hide additional info
-        int RowTwoClick1 = R.id.tableInfoRow6_1;
+        int RowSixClick1 = R.id.tableInfoRow6_1;
 
-        TableRow RowTwoVisibility = (TableRow) findViewById(RowTwoClick1);
+        TableRow RowSixVisibility = (TableRow) findViewById(RowSixClick1);
 
-        if (RowTwoVisibility.getVisibility() == View.VISIBLE) {
-            RowTwoVisibility.setVisibility(View.GONE);
+        if (RowSixVisibility.getVisibility() == View.VISIBLE) {
+            RowSixVisibility.setVisibility(View.GONE);
         } else {
-            RowTwoVisibility.setVisibility(View.VISIBLE);
+            RowSixVisibility.setVisibility(View.VISIBLE);
         }
     }
 
     public void onClickRowSeven(View v) {
         //when row is clicked show or hide additional info
-        int RowTwoClick1 = R.id.tableInfoRow7_1;
+        int RowSevenClick1 = R.id.tableInfoRow7_1;
 
-        TableRow RowTwoVisibility = (TableRow) findViewById(RowTwoClick1);
+        TableRow RowSevenVisibility = (TableRow) findViewById(RowSevenClick1);
 
-        if (RowTwoVisibility.getVisibility() == View.VISIBLE) {
-            RowTwoVisibility.setVisibility(View.GONE);
+        if (RowSevenVisibility.getVisibility() == View.VISIBLE) {
+            RowSevenVisibility.setVisibility(View.GONE);
         } else {
-            RowTwoVisibility.setVisibility(View.VISIBLE);
+            RowSevenVisibility.setVisibility(View.VISIBLE);
         }
     }
 
