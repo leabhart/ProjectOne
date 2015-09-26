@@ -889,18 +889,6 @@
                     android:textSize="@dimen/result_ticket"
                     android:textStyle="bold" />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="$15"
-                    android:id="@+id/price_6"
-                    android:textSize="@dimen/result_price"
-                    android:textColor="@color/black"
-                    android:layout_alignTop="@+id/ticket_6"
-                    android:layout_toRightOf="@+id/ticket_6"
-                    android:layout_toEndOf="@+id/ticket_6"
-                    android:layout_marginLeft="8dp"
-                    android:layout_marginStart="31dp" />
             </RelativeLayout>
         </TableRow>
 
