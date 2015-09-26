@@ -73,13 +73,16 @@ public class EventScreen extends AppCompatActivity {
     public void onClickRowTwo(View v) {
         //when row is clicked show or hide additional info
         int RowTwoClick1 = R.id.tableInfoRow2_1;
+        int ImageClick1 = R.id.imageButton;
 
         TableRow RowTwoVisibility = (TableRow) findViewById(RowTwoClick1);
+        TableRow ImageVisibility = (TableRow) findViewById(ImageClick1);
 
         if (RowTwoVisibility.getVisibility() == View.VISIBLE) {
             RowTwoVisibility.setVisibility(View.GONE);
         } else {
             RowTwoVisibility.setVisibility(View.VISIBLE);
+            ImageVisibility.setVisibility(View.VISIBLE);
         }
 
         int RowTwoClick2 = R.id.tableInfoRow2_2;
