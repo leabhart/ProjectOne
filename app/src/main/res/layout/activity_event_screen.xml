@@ -75,7 +75,7 @@
                     android:layout_width="@dimen/full_screen"
                     android:layout_height="wrap_content"
                     android:id="@+id/rowSpaceHolder"
-                    android:layout_alignBottom="@+id/DayOne"
+                    android:layout_alignBottom="@+id/dayOne"
                     android:layout_centerHorizontal="true" />
 
             </RelativeLayout>
@@ -146,7 +146,8 @@
         <TableRow
             android:id="@+id/tableInfoRow2_1"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:visibility="gone">
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -245,7 +246,8 @@
         <TableRow
             android:id="@+id/tableInfoRow2_2"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:visibility="gone">
 
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -393,7 +395,8 @@
         <TableRow
             android:id="@+id/tableInfoRow3_1"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:visibility="gone">
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -600,7 +603,7 @@
             android:id="@+id/tableInfoRow5_1"
             android:layout_height="match_parent"
             android:layout_width="match_parent"
-            >
+            android:visibility="gone">
 
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -700,7 +703,8 @@
         <TableRow
             android:id="@+id/tableInfoRow5_2"
             android:layout_height="match_parent"
-            android:layout_width="match_parent">
+            android:layout_width="match_parent"
+            android:visibility="gone">
 
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -800,7 +804,9 @@
         <TableRow
             android:id="@+id/tableInfoRow5_3"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -947,7 +953,8 @@
         <TableRow
             android:id="@+id/tableInfoRow6_1"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:visibility="gone">
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -1094,7 +1101,9 @@
         <TableRow
             android:id="@+id/tableInfoRow7_1"
             android:layout_height="match_parent"
-            android:layout_width="match_parent">
+            android:layout_width="match_parent"
+            android:visibility="gone">
+
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
