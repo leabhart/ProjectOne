@@ -112,7 +112,7 @@
         <string name="e_6_age"></string>
 
         <!-- event 7 -->
-        <string name="e_7_title">COMEDY FESTIVAL</string>
+        <string name="e_7_title">BEAST VILLAGE COMEDY FESTIVAL</string>
         <string name="e_7_day">SAT</string>
         <string name="e_7_month">Oct</string>
         <string name="e_7_date">3</string>
@@ -122,7 +122,7 @@
         <string name="e_7_description">SOME REALLY GOOD DESCRIPTIONSOME REALLY GOOD DESCRIPTIONSOME REALLY GOOD DESCRIPTIONSOME REALLY GOOD DESCRIPTIONSOME REALLY GOOD DESCRIPTION SOME REALLY GOOD DESCRIPTIONSOME REALLY GOOD DESCRIPTIONSOME REALLY GOOD DESCRIPTIONSOME</string>
         <string name="e_7_more_link">http://desmoinessocialclub.org/events/beast-village-comedy-festival/</string>
         <string name="e_7_ticket">https://midwestix.securemytix.com/event/BeastVillageSaturdayBARONV</string>
-        <string name="e_7_price">$12 SINGLE DAY/$25 ALL ACCESS</string>
+        <string name="e_7_price">$12 DAY/$25 ALL</string>
         <string name="e_7_age">21+</string>
 
         <!-- event 8 -->
@@ -159,8 +159,11 @@
     <string name="header_music">Events for Music</string>
     <string name="title_activity_search_result_social">Filter Results</string>
     <string name="header_social">Events for Social</string>
-    <string name="title_activity_search_result_screen_comedy">Filter Results</string>
+    <string name="title_activity_search_result_comedy">Filter Results</string>
     <string name="header_comedy">Events for Comedy</string>
+
+
+
 
 
 

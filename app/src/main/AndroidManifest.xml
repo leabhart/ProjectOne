@@ -98,6 +98,14 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.projectone.cs188.projectone.SearchScreen" />
         </activity>
+        <activity
+            android:name=".SearchResultComedy"
+            android:label="@string/title_activity_search_result_comedy"
+            android:parentActivityName=".SearchScreen" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.projectone.cs188.projectone.SearchScreen" />
+        </activity>
     </application>
 
 </manifest>
