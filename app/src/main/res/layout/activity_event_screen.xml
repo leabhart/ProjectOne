@@ -7,7 +7,7 @@
 
     <TableLayout
 
-        android:layout_width="match_parent"
+        android:layout_width="fill_parent"
         android:layout_height="match_parent"
         android:paddingLeft="0dp"
         android:paddingRight="0dp"
@@ -33,7 +33,7 @@
                 android:src="@drawable/filterbutton"
                 android:maxWidth="@dimen/search_button_size"
                 android:maxHeight="@dimen/search_button_size"
-                android:layout_span="3"
+                android:layout_span="1"
                 android:background="@color/black"
                 android:clickable="true" />
 
