@@ -10,7 +10,7 @@
         <TableRow android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:id="@+id/rowA">
-            android:id="@+id/tableRowA"
+
             <TextView
                 android:layout_width="fill_parent"
                 android:layout_height="75dp"
@@ -92,7 +92,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="all ages"
+                    android:text=""
                     android:id="@+id/age_1"
                     android:textSize="@dimen/result_age"
                     android:textColor="@color/black"
@@ -116,7 +116,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="$15"
+                    android:text=""
                     android:id="@+id/price_1"
                     android:textSize="@dimen/result_price"
                     android:textColor="@color/black"
@@ -125,15 +125,52 @@
                     android:layout_toEndOf="@+id/ticket_1"
                     android:layout_marginLeft="8dp"
                     android:layout_marginStart="31dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/e_1_month"
+                    android:id="@+id/month_1"
+                    android:layout_below="@+id/venue_1"
+                    android:layout_alignLeft="@+id/venue_1"
+                    android:layout_alignStart="@+id/venue_1"
+                    android:layout_marginTop="15dp"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/result_month" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/e_1_date"
+                    android:id="@+id/date_1"
+                    android:layout_below="@+id/month_1"
+                    android:layout_alignLeft="@+id/month_1"
+                    android:layout_alignStart="@+id/month_1"
+                    android:layout_marginTop="5dp"
+                    android:textSize="@dimen/result_date"
+                    android:textColor="@color/black" />
+
+
             </RelativeLayout>
         </TableRow>
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="300dp"
+            android:layout_height="1dp"
             android:layout_below="@+id/rowB"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/rowC"
+            android:background="@color/black"
+            >
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rowC"
             android:layout_centerHorizontal="true"
-            android:id="@+id/rowC">
+            android:id="@+id/rowD">
 
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -228,10 +265,311 @@
                     android:layout_toEndOf="@+id/ticket_2"
                     android:layout_marginLeft="8dp"
                     android:layout_marginStart="31dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/e_4_month"
+                    android:id="@+id/month_2"
+                    android:layout_below="@+id/venue_2"
+                    android:layout_alignLeft="@+id/venue_2"
+                    android:layout_alignStart="@+id/venue_2"
+                    android:layout_marginTop="15dp"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/result_month" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/e_4_date"
+                    android:id="@+id/date_2"
+                    android:layout_below="@+id/month_2"
+                    android:layout_alignLeft="@+id/month_2"
+                    android:layout_alignStart="@+id/month_2"
+                    android:layout_marginTop="5dp"
+                    android:textSize="@dimen/result_date"
+                    android:textColor="@color/black" />
+
             </RelativeLayout>
         </TableRow>
 
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/rowD"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/rowE"
+            android:background="@color/black"
+            >
+        </TableRow>
 
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rowE"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/rowF">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/e_6_time"
+                    android:id="@+id/time_3"
+                    android:textSize="@dimen/result_time"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginLeft="41dp"
+                    android:layout_marginStart="41dp"
+                    android:layout_marginTop="20dp"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/e_6_title"
+                    android:id="@+id/title_3"
+                    android:layout_alignTop="@+id/time_3"
+                    android:layout_toRightOf="@+id/time_3"
+                    android:layout_toEndOf="@+id/time_3"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginStart="30dp"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/result_title"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/e_6_venue"
+                    android:id="@+id/venue_3"
+                    android:layout_below="@+id/time_3"
+                    android:layout_alignLeft="@+id/time_3"
+                    android:layout_alignStart="@+id/time_3"
+                    android:layout_marginTop="15dp"
+                    android:textSize="@dimen/result_venue"
+                    android:textColor="@color/pink_txt" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/e_6_description"
+                    android:id="@+id/descript_3"
+                    android:layout_alignTop="@+id/venue_3"
+                    android:layout_alignLeft="@+id/title_3"
+                    android:layout_alignStart="@+id/title_3"
+                    android:textSize="@dimen/result_description"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/e_6_age"
+                    android:id="@+id/age_3"
+                    android:textSize="@dimen/result_age"
+                    android:textColor="@color/black"
+                    android:layout_below="@+id/descript_3"
+                    android:layout_alignLeft="@+id/descript_3"
+                    android:layout_alignStart="@+id/descript_3"
+                    android:layout_marginTop="29dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/e_6_ticket"
+                    android:id="@+id/ticket_3"
+                    android:layout_below="@+id/age_3"
+                    android:layout_alignLeft="@+id/age_3"
+                    android:layout_alignStart="@+id/age_3"
+                    android:textColor="@color/pink_txt"
+                    android:textSize="@dimen/result_ticket"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/e_6_price"
+                    android:id="@+id/price_3"
+                    android:textSize="@dimen/result_price"
+                    android:textColor="@color/black"
+                    android:layout_alignTop="@+id/ticket_3"
+                    android:layout_toRightOf="@+id/ticket_3"
+                    android:layout_toEndOf="@+id/ticket_3"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginStart="31dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/e_6_month"
+                    android:id="@+id/month_3"
+                    android:layout_below="@+id/venue_3"
+                    android:layout_alignLeft="@+id/venue_3"
+                    android:layout_alignStart="@+id/venue_3"
+                    android:layout_marginTop="15dp"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/result_month" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/e_6_date"
+                    android:id="@+id/date_3"
+                    android:layout_below="@+id/month_3"
+                    android:layout_alignLeft="@+id/month_3"
+                    android:layout_alignStart="@+id/month_3"
+                    android:layout_marginTop="5dp"
+                    android:textSize="@dimen/result_date"
+                    android:textColor="@color/black" />
+
+            </RelativeLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/rowF"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/rowG"
+            android:background="@color/black"
+            >
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rowG"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/rowH">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/e_8_time"
+                    android:id="@+id/time_4"
+                    android:textSize="@dimen/result_time"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginLeft="41dp"
+                    android:layout_marginStart="41dp"
+                    android:layout_marginTop="20dp"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/e_8_title"
+                    android:id="@+id/title_4"
+                    android:layout_alignTop="@+id/time_4"
+                    android:layout_toRightOf="@+id/time_4"
+                    android:layout_toEndOf="@+id/time_4"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginStart="30dp"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/result_title"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/e_8_venue"
+                    android:id="@+id/venue_4"
+                    android:layout_below="@+id/time_4"
+                    android:layout_alignLeft="@+id/time_4"
+                    android:layout_alignStart="@+id/time_4"
+                    android:layout_marginTop="15dp"
+                    android:textSize="@dimen/result_venue"
+                    android:textColor="@color/pink_txt" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/e_8_description"
+                    android:id="@+id/descript_4"
+                    android:layout_alignTop="@+id/venue_4"
+                    android:layout_alignLeft="@+id/title_4"
+                    android:layout_alignStart="@+id/title_4"
+                    android:textSize="@dimen/result_description"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/e_8_age"
+                    android:id="@+id/age_4"
+                    android:textSize="@dimen/result_age"
+                    android:textColor="@color/black"
+                    android:layout_below="@+id/descript_4"
+                    android:layout_alignLeft="@+id/descript_4"
+                    android:layout_alignStart="@+id/descript_4"
+                    android:layout_marginTop="29dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ticket_link"
+                    android:id="@+id/ticket_4"
+                    android:layout_below="@+id/age_4"
+                    android:layout_alignLeft="@+id/age_4"
+                    android:layout_alignStart="@+id/age_4"
+                    android:textColor="@color/pink_txt"
+                    android:textSize="@dimen/result_ticket"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/e_8_price"
+                    android:id="@+id/price_4"
+                    android:textSize="@dimen/result_price"
+                    android:textColor="@color/black"
+                    android:layout_alignTop="@+id/ticket_4"
+                    android:layout_toRightOf="@+id/ticket_4"
+                    android:layout_toEndOf="@+id/ticket_4"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginStart="31dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/e_8_month"
+                    android:id="@+id/month_4"
+                    android:layout_below="@+id/venue_4"
+                    android:layout_alignLeft="@+id/venue_4"
+                    android:layout_alignStart="@+id/venue_4"
+                    android:layout_marginTop="15dp"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/result_month" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/e_8_date"
+                    android:id="@+id/date_4"
+                    android:layout_below="@+id/month_4"
+                    android:layout_alignLeft="@+id/month_4"
+                    android:layout_alignStart="@+id/month_4"
+                    android:layout_marginTop="5dp"
+                    android:textSize="@dimen/result_date"
+                    android:textColor="@color/black" />
+
+            </RelativeLayout>
+        </TableRow>
 
     </RelativeLayout>
 

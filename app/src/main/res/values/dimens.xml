@@ -37,4 +37,6 @@
     <dimen name="result_age">15sp</dimen>
     <dimen name="result_price">15sp</dimen>
     <dimen name="result_ticket">15sp</dimen>
+    <dimen name="result_month">20sp</dimen>
+    <dimen name="result_date">30sp</dimen>
 </resources>
