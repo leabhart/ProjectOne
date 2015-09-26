@@ -1,9 +1,300 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
     tools:context="com.projectone.cs188.projectone.SearchResultSocial">
 
-</RelativeLayout>
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TableRow android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rowA">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="75dp"
+                android:text="@string/header_social"
+                android:id="@+id/textView3"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:gravity="fill_vertical|center_horizontal"
+                android:background="@color/dayonepink"
+                android:textSize="@dimen/result_header"
+                android:textColor="@color/white" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rowA"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/rowB"
+            android:layout_marginRight="5dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/e_2_time"
+                    android:id="@+id/time_1"
+                    android:textSize="@dimen/result_time"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginLeft="41dp"
+                    android:layout_marginStart="41dp"
+                    android:layout_marginTop="20dp"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/e_2_title"
+                    android:id="@+id/title_1"
+                    android:layout_alignTop="@+id/time_1"
+                    android:layout_toRightOf="@+id/time_1"
+                    android:layout_toEndOf="@+id/time_1"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginStart="30dp"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/result_title"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/e_2_venue"
+                    android:id="@+id/venue_1"
+                    android:layout_below="@+id/time_1"
+                    android:layout_alignLeft="@+id/time_1"
+                    android:layout_alignStart="@+id/time_1"
+                    android:layout_marginTop="15dp"
+                    android:textSize="@dimen/result_venue"
+                    android:textColor="@color/pink_txt" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/e_2_description"
+                    android:id="@+id/descript_1"
+                    android:layout_alignTop="@+id/venue_1"
+                    android:layout_alignLeft="@+id/title_1"
+                    android:layout_alignStart="@+id/title_1"
+                    android:textSize="@dimen/result_description"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/e_2_age"
+                    android:id="@+id/age_1"
+                    android:textSize="@dimen/result_age"
+                    android:textColor="@color/black"
+                    android:layout_below="@+id/descript_1"
+                    android:layout_alignLeft="@+id/descript_1"
+                    android:layout_alignStart="@+id/descript_1"
+                    android:layout_marginTop="29dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/e_2_ticket"
+                    android:id="@+id/ticket_1"
+                    android:layout_below="@+id/age_1"
+                    android:layout_alignLeft="@+id/age_1"
+                    android:layout_alignStart="@+id/age_1"
+                    android:textColor="@color/pink_txt"
+                    android:textSize="@dimen/result_ticket"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/e_2_price"
+                    android:id="@+id/price_1"
+                    android:textSize="@dimen/result_price"
+                    android:textColor="@color/black"
+                    android:layout_alignTop="@+id/ticket_1"
+                    android:layout_toRightOf="@+id/ticket_1"
+                    android:layout_toEndOf="@+id/ticket_1"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginStart="31dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/e_2_month"
+                    android:id="@+id/month_1"
+                    android:layout_below="@+id/venue_1"
+                    android:layout_alignLeft="@+id/venue_1"
+                    android:layout_alignStart="@+id/venue_1"
+                    android:layout_marginTop="15dp"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/result_month" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/e_2_date"
+                    android:id="@+id/date_1"
+                    android:layout_below="@+id/month_1"
+                    android:layout_alignLeft="@+id/month_1"
+                    android:layout_alignStart="@+id/month_1"
+                    android:layout_marginTop="5dp"
+                    android:textSize="@dimen/result_date"
+                    android:textColor="@color/black" />
+
+
+            </RelativeLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/rowB"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/rowC"
+            android:background="@color/black"
+            >
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rowC"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/rowD">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/e_5_time"
+                    android:id="@+id/time_2"
+                    android:textSize="@dimen/result_time"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginLeft="41dp"
+                    android:layout_marginStart="41dp"
+                    android:layout_marginTop="20dp"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/e_5_title"
+                    android:id="@+id/title_2"
+                    android:layout_alignTop="@+id/time_2"
+                    android:layout_toRightOf="@+id/time_2"
+                    android:layout_toEndOf="@+id/time_2"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginStart="30dp"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/result_title"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/e_5_venue"
+                    android:id="@+id/venue_2"
+                    android:layout_below="@+id/time_2"
+                    android:layout_alignLeft="@+id/time_2"
+                    android:layout_alignStart="@+id/time_2"
+                    android:layout_marginTop="15dp"
+                    android:textSize="@dimen/result_venue"
+                    android:textColor="@color/pink_txt" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/e_5_description"
+                    android:id="@+id/descript_2"
+                    android:layout_alignTop="@+id/venue_2"
+                    android:layout_alignLeft="@+id/title_2"
+                    android:layout_alignStart="@+id/title_2"
+                    android:textSize="@dimen/result_description"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/e_5_age"
+                    android:id="@+id/age_2"
+                    android:textSize="@dimen/result_age"
+                    android:textColor="@color/black"
+                    android:layout_below="@+id/descript_2"
+                    android:layout_alignLeft="@+id/descript_2"
+                    android:layout_alignStart="@+id/descript_2"
+                    android:layout_marginTop="29dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/e_5_ticket"
+                    android:id="@+id/ticket_2"
+                    android:layout_below="@+id/age_2"
+                    android:layout_alignLeft="@+id/age_2"
+                    android:layout_alignStart="@+id/age_2"
+                    android:textColor="@color/pink_txt"
+                    android:textSize="@dimen/result_ticket"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/e_5_price"
+                    android:id="@+id/price_2"
+                    android:textSize="@dimen/result_price"
+                    android:textColor="@color/black"
+                    android:layout_alignTop="@+id/ticket_2"
+                    android:layout_toRightOf="@+id/ticket_2"
+                    android:layout_toEndOf="@+id/ticket_2"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginStart="31dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/e_5_month"
+                    android:id="@+id/month_2"
+                    android:layout_below="@+id/venue_2"
+                    android:layout_alignLeft="@+id/venue_2"
+                    android:layout_alignStart="@+id/venue_2"
+                    android:layout_marginTop="15dp"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/result_month" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/e_5_date"
+                    android:id="@+id/date_2"
+                    android:layout_below="@+id/month_2"
+                    android:layout_alignLeft="@+id/month_2"
+                    android:layout_alignStart="@+id/month_2"
+                    android:layout_marginTop="5dp"
+                    android:textSize="@dimen/result_date"
+                    android:textColor="@color/black" />
+
+            </RelativeLayout>
+        </TableRow>
+
+
+
+    </RelativeLayout>
+
+</ScrollView>
