@@ -189,8 +189,8 @@ public class SearchScreen extends AppCompatActivity {
 
     private void sendToCatCircus()
     {
-        //Intent intent = new Intent(this, SearchResultCircus.class);
-        //startActivity(intent);
+        Intent intent = new Intent(this, SearchResultCircus.class);
+        startActivity(intent);
     }
 
     private void sendToCatCulinary()

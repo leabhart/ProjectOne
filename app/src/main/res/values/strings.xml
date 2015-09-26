@@ -139,19 +139,27 @@
     <string name="title_activity_search_screen">Events Filter</string>
 
     <!-- Faked search results -->
-    <string name="title_activity_search_result_screen0929">Events for 9/29</string>
-    <string name="title_activity_search_result_screen0930">Events for 9/30</string>
-    <string name="title_activity_search_result_screen1002">Events for 10/2</string>
-    <string name="title_activity_search_result_screen1004">Events for 10/4</string>
-    <string name="title_activity_search_result_circus">Events for Circus</string>
-    <string name="title_activity_search_result_culinary">Events for Culinary</string>
-    <string name="title_activity_search_result_dance">Events for Dance</string>
-    <string name="title_activity_search_result_ed">Events for Education</string>
-    <string name="title_activity_search_result_film">Events for Film</string>
-    <string name="title_activity_search_result_lit">Events for Literary</string>
-    <string name="title_activity_search_result_music">Events for Music</string>
-    <string name="title_activity_search_result_social">Events for Social</string>
-    <string name="title_activity_search_result_theater">Events for Theater</string>
-    <string name="title_activity_search_result_v">Events for Visual Art</string>
+    <string name="title_activity_search_result_screen0929">Filter Results</string>
+    <string name="header_0929">Events for 9/29</string>
+    <string name="title_activity_search_result_screen0930">Filter Results</string>
+    <string name="header_0930">Events for 9/30</string>
+    <string name="title_activity_search_result_screen1002">Filter Results</string>
+    <string name="header_1002">Events for 10/2</string>
+    <string name="title_activity_search_result_screen1003">Filter Results</string>
+    <string name="header_1003">Events for 10/3</string>
+    <string name="title_activity_search_result_screen1004">Filter Results</string>
+    <string name="header_1004">Events for 10/4</string>
+    <string name="title_activity_search_result_circus">Filter Results</string>
+    <string name="header_circus">Events for Circus</string>
+    <string name="title_activity_search_result_music">Filter Results</string>
+    <string name="header_music">Events for Music</string>
+    <string name="title_activity_search_result_social">Filter Results</string>
+    <string name="header_social">Events for Social</string>
+    <string name="title_activity_search_result_screen_comedy">Filter Results</string>
+    <string name="header_comedy">Events for Comedy</string>
+
+
+
+
 
 </resources>

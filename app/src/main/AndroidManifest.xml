@@ -67,38 +67,6 @@
                 android:value="com.projectone.cs188.projectone.SearchScreen" />
         </activity>
         <activity
-            android:name=".SearchResultCulinary"
-            android:label="@string/title_activity_search_result_culinary"
-            android:parentActivityName=".SearchScreen" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.projectone.cs188.projectone.SearchScreen" />
-        </activity>
-        <activity
-            android:name=".SearchResultEd"
-            android:label="@string/title_activity_search_result_ed"
-            android:parentActivityName=".SearchScreen" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.projectone.cs188.projectone.SearchScreen" />
-        </activity>
-        <activity
-            android:name=".SearchResultFilm"
-            android:label="@string/title_activity_search_result_film"
-            android:parentActivityName=".SearchScreen" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.projectone.cs188.projectone.SearchScreen" />
-        </activity>
-        <activity
-            android:name=".SearchResultLit"
-            android:label="@string/title_activity_search_result_lit"
-            android:parentActivityName=".SearchScreen" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.projectone.cs188.projectone.SearchScreen" />
-        </activity>
-        <activity
             android:name=".SearchResultMusic"
             android:label="@string/title_activity_search_result_music"
             android:parentActivityName=".SearchScreen" >
@@ -115,24 +83,16 @@
                 android:value="com.projectone.cs188.projectone.SearchScreen" />
         </activity>
         <activity
-            android:name=".SearchResultTheater"
-            android:label="@string/title_activity_search_result_theater"
+            android:name=".SearchResultScreen1003"
+            android:label="@string/title_activity_search_result_screen1003"
             android:parentActivityName=".SearchScreen" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.projectone.cs188.projectone.SearchScreen" />
         </activity>
         <activity
-            android:name=".SearchResultVA"
-            android:label="@string/title_activity_search_result_v"
-            android:parentActivityName=".SearchScreen" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.projectone.cs188.projectone.SearchScreen" />
-        </activity>
-        <activity
-            android:name=".SearchResultDance"
-            android:label="@string/title_activity_search_result_dance"
+            android:name=".SearchResultScreenComedy"
+            android:label="@string/title_activity_search_result_screen_comedy"
             android:parentActivityName=".SearchScreen" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
