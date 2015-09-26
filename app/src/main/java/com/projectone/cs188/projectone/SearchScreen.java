@@ -10,6 +10,7 @@ import android.view.View;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class SearchScreen extends AppCompatActivity {
 
@@ -155,36 +156,48 @@ public class SearchScreen extends AppCompatActivity {
                 sendToCatVA();
             }
         });
+
+        /**
+         * We need to add a comedy button if we have time.
+         *
+        ImageView resultComedy = (ImageView) findViewById(R.id.comedybutton);
+        resultCatVA.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                sendToCatComedy();
+            }
+        });
+         */
     }
 
     private void sendToResult0929()
     {
-        //Intent intent = new Intent(this, SearchResultScreen0929.class);
-        //startActivity(intent);
+        Intent intent = new Intent(this, SearchResultScreen0929.class);
+        startActivity(intent);
     }
 
     private void sendToResult0930()
     {
-        //Intent intent = new Intent(this, SearchResultScreen0930.class);
-        //startActivity(intent);
+        Intent intent = new Intent(this, SearchResultScreen0930.class);
+        startActivity(intent);
     }
 
     private void sendToResult1002()
     {
-        //Intent intent = new Intent(this, SearchResultScreen1002.class);
-        //startActivity(intent);
+        Intent intent = new Intent(this, SearchResultScreen1002.class);
+        startActivity(intent);
     }
 
     private void sendToResult1003()
     {
-        //Intent intent = new Intent(this, SearchResultScreen1003.class);
-        //startActivity(intent);
+        Intent intent = new Intent(this, SearchResultScreen1003.class);
+        startActivity(intent);
     }
 
     private void sendToResult1004()
     {
-        //Intent intent = new Intent(this, SearchResultScreen1004.class);
-        //startActivity(intent);
+        Intent intent = new Intent(this, SearchResultScreen1004.class);
+        startActivity(intent);
     }
 
     private void sendToCatCircus()
@@ -197,30 +210,35 @@ public class SearchScreen extends AppCompatActivity {
     {
         //Intent intent = new Intent(this, SearchResultCulinary.class);
         //startActivity(intent);
+        Toast.makeText(getApplicationContext(), "No Results Found For 'Culinary'", Toast.LENGTH_SHORT).show();
     }
 
     private void sendToCatDance()
     {
         //Intent intent = new Intent(this, SearchResultDance.class);
         //startActivity(intent);
+        Toast.makeText(getApplicationContext(), "No Results Found For 'Dance'", Toast.LENGTH_SHORT).show();
     }
 
     private void sendToCatEd()
     {
         //Intent intent = new Intent(this, SearchResultEd.class);
         //startActivity(intent);
+        Toast.makeText(getApplicationContext(), "No Results Found For 'Education'", Toast.LENGTH_SHORT).show();
     }
 
     private void sendToCatFilm()
     {
         //Intent intent = new Intent(this, SearchResultFilm.class);
         //startActivity(intent);
+        Toast.makeText(getApplicationContext(), "No Results Found For 'Film'", Toast.LENGTH_SHORT).show();
     }
 
     private void sendToCatLit()
     {
         //Intent intent = new Intent(this, SearchResultLit.class);
         //startActivity(intent);
+        Toast.makeText(getApplicationContext(), "No Results Found For 'Literary'", Toast.LENGTH_SHORT).show();
     }
 
     private void sendToCatMusic()
@@ -231,20 +249,28 @@ public class SearchScreen extends AppCompatActivity {
 
     private void sendToCatSocial()
     {
-        //Intent intent = new Intent(this, SearchResultSocial.class);
-        //startActivity(intent);
+        Intent intent = new Intent(this, SearchResultSocial.class);
+        startActivity(intent);
     }
 
     private void sendToCatTheater()
     {
         //Intent intent = new Intent(this, SearchResultTheater.class);
         //startActivity(intent);
+        Toast.makeText(getApplicationContext(), "No Results Found For 'Theater'", Toast.LENGTH_SHORT).show();
     }
 
     private void sendToCatVA()
     {
         //Intent intent = new Intent(this, SearchResultVA.class);
         //startActivity(intent);
+        Toast.makeText(getApplicationContext(), "No Results Found For 'Visual Art'", Toast.LENGTH_SHORT).show();
+    }
+
+    private void sendToCatComedy()
+    {
+        Intent intent = new Intent(this, SearchResultComedy.class);
+        startActivity(intent);
     }
 
 

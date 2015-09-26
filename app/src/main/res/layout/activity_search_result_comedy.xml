@@ -1,7 +1,7 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    tools:context="com.projectone.cs188.projectone.SearchResultScreen1003">
+    tools:context="com.projectone.cs188.projectone.SearchResultComedy">
 
     <RelativeLayout
         android:layout_width="fill_parent"
@@ -14,7 +14,7 @@
             <TextView
                 android:layout_width="fill_parent"
                 android:layout_height="75dp"
-                android:text="@string/header_1003"
+                android:text="@string/header_comedy"
                 android:id="@+id/textView3"
                 android:layout_alignParentTop="true"
                 android:layout_alignParentLeft="true"
