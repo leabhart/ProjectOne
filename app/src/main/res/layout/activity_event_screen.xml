@@ -13,6 +13,7 @@
         android:paddingRight="0dp"
         android:paddingTop="0dp"
         android:paddingBottom="0dp"
+        android:orientation="vertical"
         tools:context=".EventScreen">
 
         <TableRow
@@ -20,7 +21,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/black"
-            android:layout_gravity="center">
+            android:layout_gravity="center"
+            android:orientation="vertical">
 
             <ImageButton
                 android:layout_width="match_parent"
