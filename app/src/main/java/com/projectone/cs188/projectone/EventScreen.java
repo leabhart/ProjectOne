@@ -17,7 +17,7 @@ public class EventScreen extends AppCompatActivity {
         Typeface robotoLight = Typeface.createFromAsset(getAssets(), "fonts/robotolight.ttf");
         Typeface robotoRegular = Typeface.createFromAsset(getAssets(), "fonts/robotoregular.ttf");
         Typeface robotoMedium = Typeface.createFromAsset(getAssets(), "fonts/robotomedium.ttf");
-        TextView Day1 = (TextView) findViewById(R.id.circus_header);
+        TextView Day1 = (TextView) findViewById(R.id.dayOne);
         TextView Day2 = (TextView) findViewById(R.id.dayTwo);
         TextView Day3 = (TextView) findViewById(R.id.dayThree);
         TextView Day4 = (TextView) findViewById(R.id.dayFour);

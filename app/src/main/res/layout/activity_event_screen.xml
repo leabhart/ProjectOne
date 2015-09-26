@@ -45,7 +45,7 @@
 
             <RelativeLayout>
                 <TextView
-                android:id="@+id/DayOne"
+                android:id="@+id/dayOne"
                 android:layout_width="@dimen/activity_layout_width"
                 android:layout_height="@dimen/activity_layout_height"
                 android:layout_marginLeft="@dimen/activity_double_horizontal_margin"
@@ -60,7 +60,7 @@
                     android:id="@+id/dateOne"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_alignTop="@+id/DayOne"
+                    android:layout_alignTop="@+id/dayOne"
                     android:layout_marginStart="@dimen/activity_margin_start"
                     android:layout_marginLeft="@dimen/activity_double_horizontal_margin"
                     android:layout_marginRight="@dimen/activity_double_horizontal_margin"
