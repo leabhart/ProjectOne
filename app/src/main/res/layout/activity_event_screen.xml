@@ -45,7 +45,7 @@
             android:onClick="onClickRowOne">
             <RelativeLayout>
                 <TextView
-                android:id="@+id/dayOne"
+                android:id="@+id/circus_header"
                 android:layout_width="@dimen/activity_layout_width"
                 android:layout_height="@dimen/activity_layout_height"
                 android:layout_marginLeft="@dimen/activity_double_horizontal_margin"
@@ -60,7 +60,7 @@
                     android:id="@+id/dateOne"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_alignTop="@+id/dayOne"
+                    android:layout_alignTop="@+id/circus_header"
                     android:layout_marginStart="@dimen/activity_margin_start"
                     android:layout_marginLeft="@dimen/activity_double_horizontal_margin"
                     android:layout_marginRight="@dimen/activity_double_horizontal_margin"
@@ -75,7 +75,7 @@
                     android:layout_width="@dimen/full_screen"
                     android:layout_height="wrap_content"
                     android:id="@+id/rowSpaceHolder"
-                    android:layout_alignBottom="@+id/dayOne"
+                    android:layout_alignBottom="@+id/circus_header"
                     android:layout_centerHorizontal="true" />
 
             </RelativeLayout>

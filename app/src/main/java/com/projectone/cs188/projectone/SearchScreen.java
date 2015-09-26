@@ -225,8 +225,8 @@ public class SearchScreen extends AppCompatActivity {
 
     private void sendToCatMusic()
     {
-        //Intent intent = new Intent(this, SearchResultMusic.class);
-        //startActivity(intent);
+        Intent intent = new Intent(this, SearchResultMusic.class);
+        startActivity(intent);
     }
 
     private void sendToCatSocial()

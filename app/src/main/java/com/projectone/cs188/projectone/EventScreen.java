@@ -7,12 +7,9 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.view.View.OnClickListener;
-import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.TableRow;
 import android.widget.TextView;
-import android.widget.Toast;
 
 public class EventScreen extends AppCompatActivity {
 
@@ -20,7 +17,7 @@ public class EventScreen extends AppCompatActivity {
         Typeface robotoLight = Typeface.createFromAsset(getAssets(), "fonts/robotolight.ttf");
         Typeface robotoRegular = Typeface.createFromAsset(getAssets(), "fonts/robotoregular.ttf");
         Typeface robotoMedium = Typeface.createFromAsset(getAssets(), "fonts/robotomedium.ttf");
-        TextView Day1 = (TextView) findViewById(R.id.dayOne);
+        TextView Day1 = (TextView) findViewById(R.id.circus_header);
         TextView Day2 = (TextView) findViewById(R.id.dayTwo);
         TextView Day3 = (TextView) findViewById(R.id.dayThree);
         TextView Day4 = (TextView) findViewById(R.id.dayFour);

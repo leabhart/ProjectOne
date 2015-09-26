@@ -27,4 +27,14 @@
     <dimen name="activity_day_text">16sp</dimen>
     <dimen name="activity_date_text">27sp</dimen>
     <dimen name="activity_event_text">12sp</dimen> -->
+
+    <!-- search result text sizes -->
+    <dimen name="result_header">30sp</dimen>
+    <dimen name="result_time">15sp</dimen>
+    <dimen name="result_venue">15sp</dimen>
+    <dimen name="result_title">15sp</dimen>
+    <dimen name="result_description">15sp</dimen>
+    <dimen name="result_age">15sp</dimen>
+    <dimen name="result_price">15sp</dimen>
+    <dimen name="result_ticket">15sp</dimen>
 </resources>

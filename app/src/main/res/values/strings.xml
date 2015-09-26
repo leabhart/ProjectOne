@@ -29,9 +29,9 @@
         <string name="e_1_month">Sept</string>
         <string name="e_1_date">29</string>
         <string name="e_1_time">7:30 PM</string>
-        <string name="e_1_venue">KUM &amp; GO THEATER</string>
+        <string name="e_1_venue">KUM &amp; GO\nTHEATER</string>
         <string name="e_1_category">Music</string>
-        <string name="e_1_description">SOME REALLY GOOD DESCRIPTION</string>
+        <string name="e_1_description">SOME REALLY GOOD DESCRIPTIONSOME REALLY GOOD DESCRIPTIONSOME REALLY GOOD DESCRIPTIONSOME REALLY GOOD DESCRIPTIONSOME REALLY GOOD DESCRIPTION</string>
         <string name="e_1_more_link">http://desmoinessocialclub.org/events/summermusic-plays-in-c/</string>
         <string name="e_1_ticket">AT THE DOOR</string>
         <string name="e_1_price">$10</string>
@@ -44,7 +44,7 @@
         <string name="e_2_month">Sept</string>
         <string name="e_2_date">29</string>
         <string name="e_2_time">7:30 PM</string>
-        <string name="e_2_venue">THE BASEMENT</string>
+        <string name="e_2_venue">THE\nBASEMENT</string>
         <string name="e_2_category">Social</string>
         <string name="e_2_description">SOME REALLY GOOD DESCRIPTION</string>
         <string name="e_2_more_link">http://desmoinessocialclub.org/events/team-trivia-2015-09-29/</string>
@@ -57,7 +57,7 @@
         <string name="e_3_month">Sept</string>
         <string name="e_3_date">30</string>
         <string name="e_3_time">7:00 PM</string>
-        <string name="e_3_venue">HANDBALL COURT</string>
+        <string name="e_3_venue">HANDBALL\nCOURT</string>
         <string name="e_3_category">Circus</string>
         <string name="e_3_description">SOME REALLY GOOD DESCRIPTION</string>
         <string name="e_3_more_link">http://desmoinessocialclub.org/events/morning-circus-strength-and-flexibility-2015-09-30/</string>
@@ -71,7 +71,7 @@
         <string name="e_4_month">Oct</string>
         <string name="e_4_date">2</string>
         <string name="e_4_time">5:30 PM</string>
-        <string name="e_4_venue">THE BASEMENT</string>
+        <string name="e_4_venue">THE\nBASEMENT</string>
         <string name="e_4_category">Music</string>
         <string name="e_4_description">SOME REALLY GOOD DESCRIPTION</string>
         <string name="e_4_more_link">http://desmoinessocialclub.org/events/first-friday-new-orleans-jazz-party-2015-10-02/</string>
@@ -85,7 +85,7 @@
         <string name="e_5_month">Oct</string>
         <string name="e_5_date">2</string>
         <string name="e_5_time">7:00 PM</string>
-        <string name="e_5_venue">THE BASEMENT</string>
+        <string name="e_5_venue">THE\nBASEMENT</string>
         <string name="e_5_category">Social</string>
         <string name="e_5_description">SOME REALLY GOOD DESCRIPTION</string>
         <string name="e_5_more_link">http://desmoinessocialclub.org/events/haiku-deathmatch-7/</string>
@@ -99,7 +99,7 @@
         <string name="e_6_month">Oct</string>
         <string name="e_6_date">2</string>
         <string name="e_6_time">10:00 PM</string>
-        <string name="e_6_venue">THE BASEMENT</string>
+        <string name="e_6_venue">THE\nBASEMENT</string>
         <string name="e_6_category">Music</string>
         <string name="e_6_description">SOME REALLY GOOD DESCRIPTION</string>
         <string name="e_6_more_link">http://desmoinessocialclub.org/events/preferred-blend-a-modern-disco-dance-party-2015-10-02/</string>
@@ -113,7 +113,7 @@
         <string name="e_7_month">Oct</string>
         <string name="e_7_date">3</string>
         <string name="e_7_time">12:00 PM</string>
-        <string name="e_7_venue">KUM &amp; GO THEATER</string>
+        <string name="e_7_venue">KUM &amp; GO\nTHEATER</string>
         <string name="e_7_category">Comedy</string>
         <string name="e_7_description">SOME REALLY GOOD DESCRIPTION</string>
         <string name="e_7_more_link">http://desmoinessocialclub.org/events/beast-village-comedy-festival/</string>
@@ -127,7 +127,7 @@
         <string name="e_8_month">Oct</string>
         <string name="e_8_date">4</string>
         <string name="e_8_time">4:00 PM</string>
-        <string name="e_8_venue">THE BASEMENT</string>
+        <string name="e_8_venue">THE\nBASEMENT</string>
         <string name="e_8_category">Music</string>
         <string name="e_8_description">SOME REALLY GOOD DESCRIPTION</string>
         <string name="e_8_more_link">http://desmoinessocialclub.org/events/dantedescobrothertrucker/</string>
@@ -158,7 +158,23 @@
     <string name="title_activity_search_result_screen_comedy">Filter Results</string>
     <string name="header_comedy">Events for Comedy</string>
 
+    <string name="testlotsoftext">Obama and Chinese President Xi Jinping promoted new agreements Friday on cybersecurity and climate that they said could yield breakthroughs for their nations.
 
+The leaders promised to help each other investigate and prevent cyberattacks and pledged not to commit cyberespionage or support the theft of trade secrets.
+
+Xi also announced that China will limit carbon emissions starting in 2017, setting in motion a cap-and-trade program similar to one that Obama pushed for, but has been unable to achieve, in the United States.
+
+“This is progress. But I have to insist that our work is not yet done,” Obama said during a news conference in the White House Rose Garden, Xi standing at a lectern beside him.
+
+    Xi acknowledged other commitments of importance to the United States: alliance with the U.S. on a tough global climate agreement this year, vigilance on Iran’s pledged adherence to the deal on its nuclear program, opposition to North Korean aggression and peaceful activity in disputed waters.
+
+Those accommodations were key to the Obama administration’s agenda of incrementally improving relations with China and keeping up collaboration on shared projects.
+
+Still, the results of Xi’s state visit left open the question of whether tension had eased after squabbles over cyberhacks that attacked U.S. government and businesses.
+
+U.S. intelligence officials believe China was behind the theft of millions of security-clearance files as well as recent cyberlooting of health insurance and airline records. For decades, Chinese companies, with the assistance of Beijing, have stolen intellectual property from U.S. firms to replicate American products and engineering. In recent months, Chinese officials have denied responsibility for commercial cyberattacks and called reports of Chinese theft of U.S. data “groundless speculation.”
+
+Xi didn’t apologize for any hacking but rather promised that his government would pursue lawbreakers with vigor. Obama implied that he raised the issue strenuously in private.</string>
 
 
 
