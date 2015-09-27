@@ -185,6 +185,7 @@
             android:layout_alignStart="@+id/weekday7" />
 
 
+        <!-- invisible anchor to mark the center point and have other objects relate to it for arrangement -->
         <View
             android:id="@+id/anchor"
             android:layout_width="0dp"
