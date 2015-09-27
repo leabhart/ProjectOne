@@ -85,13 +85,6 @@ public class SearchScreen extends AppCompatActivity {
             }
         });
 
-        ImageView resultCatCulinary = (ImageView) findViewById(R.id.culinarybutton);
-        resultCatCulinary.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                sendToCatCulinary();
-            }
-        });
 
         ImageView resultCatDance = (ImageView) findViewById(R.id.dancebutton);
         resultCatDance.setOnClickListener(new View.OnClickListener() {
@@ -157,17 +150,15 @@ public class SearchScreen extends AppCompatActivity {
             }
         });
 
-        /**
-         * We need to add a comedy button if we have time.
-         *
+
         ImageView resultComedy = (ImageView) findViewById(R.id.comedybutton);
-        resultCatVA.setOnClickListener(new View.OnClickListener() {
+        resultComedy.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 sendToCatComedy();
             }
         });
-         */
+
     }
 
     private void sendToResult0929()
@@ -206,12 +197,6 @@ public class SearchScreen extends AppCompatActivity {
         startActivity(intent);
     }
 
-    private void sendToCatCulinary()
-    {
-        //Intent intent = new Intent(this, SearchResultCulinary.class);
-        //startActivity(intent);
-        Toast.makeText(getApplicationContext(), "No Results Found For 'Culinary'", Toast.LENGTH_SHORT).show();
-    }
 
     private void sendToCatDance()
     {

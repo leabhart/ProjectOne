@@ -1,278 +1,287 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context="com.projectone.cs188.projectone.SearchScreen">
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
 
-    <!-- weekdays text on top SU to S -->
-    <TextView
-        android:id="@+id/weekday1"
-        android:layout_height="wrap_content"
-        android:layout_width="58px"
-        android:textSize="15sp"
-        android:textColor="#030303"
-        android:text="M "
-        android:layout_marginTop="75dp"
-        android:gravity="center_horizontal"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginLeft="70dp"
-        android:layout_marginStart="70dp" />
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingBottom="16dp"
+        android:paddingTop="16dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp">
 
-    <TextView
-        android:id="@+id/weekday2"
-        android:layout_height="wrap_content"
-        android:layout_width="58px"
-        android:textSize="15sp"
-        android:textColor="#030303"
-        android:text="T "
-        android:gravity="center_horizontal"
-        android:layout_alignTop="@+id/weekday1"
-        android:layout_toRightOf="@+id/weekday1"
-        android:layout_marginLeft="20dp"
-        android:layout_marginStart="20dp" />
+        <TextView
+            android:id="@+id/weekday4"
+            android:layout_height="wrap_content"
+            android:layout_width="50dp"
+            android:textSize="15sp"
+            android:textColor="#030303"
+            android:text="TH"
+            android:gravity="center_horizontal"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"/>
 
-    <TextView
-        android:id="@+id/weekday3"
-        android:layout_height="wrap_content"
-        android:layout_width="58px"
-        android:textSize="15sp"
-        android:textColor="#030303"
-        android:text="W "
-        android:gravity="center_horizontal"
-        android:layout_alignTop="@+id/weekday2"
-        android:layout_toRightOf="@+id/weekday2"
-        android:layout_marginLeft="20dp"
-        android:layout_marginStart="20dp" />
+        <!-- to the left of "TH" -->
+        <TextView
+            android:id="@+id/weekday3"
+            android:layout_height="wrap_content"
+            android:layout_width="50dp"
+            android:textSize="15sp"
+            android:textColor="#030303"
+            android:text="W"
+            android:gravity="center_horizontal"
+            android:layout_toLeftOf="@id/weekday4"
+            android:layout_alignTop="@id/weekday4"
+            android:layout_marginRight="20dp"/>
 
-    <TextView
-        android:id="@+id/weekday4"
-        android:layout_height="wrap_content"
-        android:layout_width="58px"
-        android:textSize="15sp"
-        android:textColor="#030303"
-        android:text="TH "
-        android:gravity="center_horizontal"
-        android:layout_alignTop="@+id/weekday3"
-        android:layout_toRightOf="@+id/weekday3"
-        android:layout_marginLeft="20dp"
-        android:layout_marginStart="20dp" />
+        <TextView
+            android:id="@+id/weekday2"
+            android:layout_height="wrap_content"
+            android:layout_width="50dp"
+            android:textSize="15sp"
+            android:textColor="#030303"
+            android:text="T"
+            android:gravity="center_horizontal"
+            android:layout_toLeftOf="@id/weekday3"
+            android:layout_alignTop="@id/weekday3"
+            android:layout_marginRight="20dp"/>
 
-    <TextView
-        android:id="@+id/weekday5"
-        android:layout_height="wrap_content"
-        android:layout_width="58px"
-        android:textSize="15sp"
-        android:textColor="#030303"
-        android:text="F "
-        android:gravity="center_horizontal"
-        android:layout_alignTop="@+id/weekday4"
-        android:layout_toRightOf="@+id/weekday4"
-        android:layout_marginLeft="20dp"
-        android:layout_marginStart="20dp" />
-
-    <TextView
-        android:id="@+id/weekday6"
-        android:layout_height="wrap_content"
-        android:layout_width="58px"
-        android:textSize="15sp"
-        android:textColor="#030303"
-        android:text="S "
-        android:gravity="center_horizontal"
-        android:layout_alignTop="@+id/weekday5"
-        android:layout_toRightOf="@+id/weekday5"
-        android:layout_marginLeft="20dp"
-        android:layout_marginStart="20dp" />
-
-    <TextView
-        android:id="@+id/weekday7"
-        android:layout_height="wrap_content"
-        android:layout_width="58px"
-        android:textSize="15sp"
-        android:textColor="#030303"
-        android:text="SU "
-        android:gravity="center_horizontal"
-        android:layout_alignTop="@+id/weekday6"
-        android:layout_toRightOf="@+id/weekday6"
-        android:layout_marginLeft="20dp"
-        android:layout_marginStart="20dp" />
-
-    <!--dates-->
-    <TextView
-        android:layout_width="50dp"
-        android:layout_height="wrap_content"
-        android:text="9/28"
-        android:textColor="#f48fb1"
-        android:id="@+id/date0928"
-        android:background="@drawable/fadedborder"
-        android:layout_marginTop="30dp"
-        android:gravity="center_horizontal"
-        android:layout_below="@+id/weekday1"
-        android:layout_alignRight="@+id/weekday1"
-        android:layout_alignEnd="@+id/weekday1" />
-
-    <TextView
-        android:layout_width="50dp"
-        android:layout_height="wrap_content"
-        android:text="9/29"
-        android:textColor="#e91e63"
-        android:id="@+id/date0929"
-        android:background="@drawable/border"
-        android:gravity="center_horizontal"
-        android:layout_alignTop="@+id/date0928"
-        android:layout_toRightOf="@+id/date0928"
-        android:layout_marginLeft="14dp" />
-
-    <TextView
-        android:layout_width="50dp"
-        android:layout_height="wrap_content"
-        android:text="9/30"
-        android:textColor="#e91e63"
-        android:id="@+id/date0930"
-        android:background="@drawable/border"
-        android:gravity="center_horizontal"
-        android:layout_alignTop="@+id/date0929"
-        android:layout_toRightOf="@+id/date0929"
-        android:layout_marginLeft="14dp" />
-
-    <TextView
-        android:layout_width="50dp"
-        android:layout_height="wrap_content"
-        android:text="10/1"
-        android:textColor="#f48fb1"
-        android:id="@+id/date1001"
-        android:background="@drawable/fadedborder"
-        android:gravity="center_horizontal"
-        android:layout_alignTop="@+id/date0930"
-        android:layout_toRightOf="@+id/date0930"
-        android:layout_marginLeft="14dp" />
-
-    <TextView
-        android:layout_width="50dp"
-        android:layout_height="wrap_content"
-        android:text="10/2"
-        android:textColor="#e91e63"
-        android:id="@+id/date1002"
-        android:background="@drawable/border"
-        android:gravity="center_horizontal"
-        android:layout_alignTop="@+id/date1001"
-        android:layout_toRightOf="@+id/date1001"
-        android:layout_marginLeft="14dp" />
-
-    <TextView
-        android:layout_width="50dp"
-        android:layout_height="wrap_content"
-        android:text="10/3"
-        android:textColor="#e91e63"
-        android:id="@+id/date1003"
-        android:background="@drawable/border"
-        android:gravity="center_horizontal"
-        android:layout_alignTop="@+id/date1002"
-        android:layout_toRightOf="@+id/date1002"
-        android:layout_marginLeft="14dp" />
-
-    <TextView
-        android:layout_width="50dp"
-        android:layout_height="wrap_content"
-        android:text="10/4"
-        android:textColor="#e91e63"
-        android:id="@+id/date1004"
-        android:background="@drawable/border"
-        android:gravity="center_horizontal"
-        android:layout_alignTop="@+id/date1003"
-        android:layout_toRightOf="@+id/date1003"
-        android:layout_marginLeft="14dp" />
+        <TextView
+            android:id="@+id/weekday1"
+            android:layout_height="wrap_content"
+            android:layout_width="50dp"
+            android:textSize="15sp"
+            android:textColor="#030303"
+            android:text="M"
+            android:gravity="center_horizontal"
+            android:layout_toLeftOf="@id/weekday2"
+            android:layout_alignTop="@id/weekday2"
+            android:layout_marginRight="20dp"/>
 
 
 
-    <ImageView
-        android:layout_width="250dp"
-        android:layout_height="80dp"
-        android:id="@+id/circusbutton"
-        android:src="@drawable/cbcircus"
-        android:layout_below="@+id/date1004"
-        android:layout_marginTop="75dp"
-        android:layout_marginLeft="31dp"/>
+        <!-- to the right of "TH" -->
 
-    <ImageView
-        android:layout_width="250dp"
-        android:layout_height="80dp"
-        android:id="@+id/culinarybutton"
-        android:src="@drawable/cbculinary"
-        android:layout_below="@+id/circusbutton"
-        android:layout_alignLeft="@+id/circusbutton"
-        android:layout_alignStart="@+id/circusbutton" />
+        <TextView
+            android:id="@+id/weekday5"
+            android:layout_height="wrap_content"
+            android:layout_width="50dp"
+            android:textSize="15sp"
+            android:textColor="#030303"
+            android:text="F"
+            android:gravity="center_horizontal"
+            android:layout_toRightOf="@id/weekday4"
+            android:layout_alignTop="@id/weekday4"
+            android:layout_marginLeft="20dp"/>
 
-    <ImageView
-        android:layout_width="250dp"
-        android:layout_height="80dp"
-        android:id="@+id/dancebutton"
-        android:src="@drawable/cbdance"
-        android:layout_below="@+id/culinarybutton"
-        android:layout_alignLeft="@+id/circusbutton"
-        android:layout_alignStart="@+id/circusbutton" />
+        <TextView
+            android:id="@+id/weekday6"
+            android:layout_height="wrap_content"
+            android:layout_width="50dp"
+            android:textSize="15sp"
+            android:textColor="#030303"
+            android:text="S"
+            android:gravity="center_horizontal"
+            android:layout_toRightOf="@id/weekday5"
+            android:layout_alignTop="@id/weekday5"
+            android:layout_marginLeft="20dp"/>
 
-    <ImageView
-        android:layout_width="250dp"
-        android:layout_height="80dp"
-        android:id="@+id/educationbutton"
-        android:src="@drawable/cbeducation"
-        android:layout_below="@+id/dancebutton"
-        android:layout_alignLeft="@+id/circusbutton"
-        android:layout_alignStart="@+id/circusbutton" />
+        <TextView
+            android:id="@+id/weekday7"
+            android:layout_height="wrap_content"
+            android:layout_width="50dp"
+            android:textSize="15sp"
+            android:textColor="#030303"
+            android:text="SU"
+            android:gravity="center_horizontal"
+            android:layout_toRightOf="@id/weekday6"
+            android:layout_alignTop="@id/weekday6"
+            android:layout_marginLeft="20dp"/>
 
-    <ImageView
-        android:layout_width="250dp"
-        android:layout_height="80dp"
-        android:id="@+id/filmbutton"
-        android:src="@drawable/cbfilm"
-        android:layout_below="@+id/educationbutton"
-        android:layout_alignLeft="@+id/circusbutton"
-        android:layout_alignStart="@+id/circusbutton" />
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="9/28"
+            android:textColor="#f48fb1"
+            android:id="@+id/date0928"
+            android:background="@drawable/fadedborder"
+            android:gravity="center_horizontal"
+            android:layout_below="@+id/weekday1"
+            android:layout_alignLeft="@+id/weekday1"
+            android:layout_alignStart="@+id/weekday1"
+            android:layout_marginTop="15dp"/>
 
-    <ImageView
-        android:layout_width="250dp"
-        android:layout_height="80dp"
-        android:id="@+id/literarybutton"
-        android:src="@drawable/cbliterary"
-        android:layout_alignTop="@id/circusbutton"
-        android:layout_toRightOf="@+id/circusbutton" />
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="9/29"
+            android:textColor="#e91e63"
+            android:id="@+id/date0929"
+            android:background="@drawable/border"
+            android:gravity="center_horizontal"
+            android:layout_alignTop="@id/date0928"
+            android:layout_alignLeft="@+id/weekday2"
+            android:layout_alignStart="@+id/weekday2" />
 
-    <ImageView
-        android:layout_width="250dp"
-        android:layout_height="80dp"
-        android:id="@+id/musicbutton"
-        android:src="@drawable/cbmusic"
-        android:layout_alignTop="@id/culinarybutton"
-        android:layout_toRightOf="@+id/culinarybutton" />
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="9/30"
+            android:textColor="#e91e63"
+            android:id="@+id/date0930"
+            android:background="@drawable/border"
+            android:gravity="center_horizontal"
+            android:layout_alignTop="@id/date0928"
+            android:layout_alignLeft="@+id/weekday3"
+            android:layout_alignStart="@+id/weekday3" />
 
-    <ImageView
-        android:layout_width="250dp"
-        android:layout_height="80dp"
-        android:id="@+id/socialbutton"
-        android:src="@drawable/cbsocial"
-        android:layout_alignTop="@id/dancebutton"
-        android:layout_toRightOf="@+id/dancebutton" />
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="10/1"
+            android:textColor="#f48fb1"
+            android:id="@+id/date1001"
+            android:background="@drawable/fadedborder"
+            android:gravity="center_horizontal"
+            android:layout_alignTop="@id/date0928"
+            android:layout_alignLeft="@+id/weekday4"
+            android:layout_alignStart="@+id/weekday4" />
 
-    <ImageView
-        android:layout_width="250dp"
-        android:layout_height="80dp"
-        android:id="@+id/theaterbutton"
-        android:src="@drawable/cbtheater"
-        android:layout_alignTop="@id/educationbutton"
-        android:layout_toRightOf="@+id/educationbutton" />
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="10/2"
+            android:textColor="#e91e63"
+            android:id="@+id/date1002"
+            android:background="@drawable/border"
+            android:gravity="center_horizontal"
+            android:layout_alignTop="@id/date0928"
+            android:layout_alignLeft="@+id/weekday5"
+            android:layout_alignStart="@+id/weekday5" />
 
-    <ImageView
-        android:layout_width="250dp"
-        android:layout_height="80dp"
-        android:id="@+id/visualartbutton"
-        android:src="@drawable/cbvisualart"
-        android:layout_alignTop="@id/filmbutton"
-        android:layout_toRightOf="@+id/filmbutton" />
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="10/3"
+            android:textColor="#e91e63"
+            android:id="@+id/date1003"
+            android:background="@drawable/border"
+            android:gravity="center_horizontal"
+            android:layout_alignTop="@id/date0928"
+            android:layout_alignLeft="@+id/weekday6"
+            android:layout_alignStart="@+id/weekday6" />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="10/4"
+            android:textColor="#e91e63"
+            android:id="@+id/date1004"
+            android:gravity="center_horizontal"
+            android:background="@drawable/border"
+            android:layout_alignTop="@id/date0928"
+            android:layout_alignLeft="@+id/weekday7"
+            android:layout_alignStart="@+id/weekday7" />
+
+
+        <!-- invisible anchor to mark the center point and have other objects relate to it for arrangement -->
+        <View
+            android:id="@+id/anchor"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/date0928"
+            android:layout_marginTop="30dp"/>
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="80dp"
+            android:id="@+id/circusbutton"
+            android:src="@drawable/cbcircus"
+            android:layout_toLeftOf="@id/anchor"
+            android:layout_alignTop="@id/anchor"/>
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="80dp"
+            android:id="@+id/literarybutton"
+            android:src="@drawable/cbliterary"
+            android:layout_toRightOf="@id/anchor"
+            android:layout_alignTop="@id/anchor"/>
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="80dp"
+            android:id="@+id/comedybutton"
+            android:src="@drawable/cbcomedy"
+            android:layout_below="@+id/circusbutton"
+            android:layout_alignLeft="@+id/circusbutton"
+            android:layout_alignStart="@+id/circusbutton" />
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="80dp"
+            android:id="@+id/musicbutton"
+            android:src="@drawable/cbmusic"
+            android:layout_alignTop="@id/comedybutton"
+            android:layout_toRightOf="@+id/comedybutton" />
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="80dp"
+            android:id="@+id/dancebutton"
+            android:src="@drawable/cbdance"
+            android:layout_below="@+id/comedybutton"
+            android:layout_alignLeft="@+id/circusbutton"
+            android:layout_alignStart="@+id/circusbutton" />
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="80dp"
+            android:id="@+id/socialbutton"
+            android:src="@drawable/cbsocial"
+            android:layout_alignTop="@id/dancebutton"
+            android:layout_toRightOf="@+id/dancebutton" />
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="80dp"
+            android:id="@+id/educationbutton"
+            android:src="@drawable/cbeducation"
+            android:layout_below="@+id/dancebutton"
+            android:layout_alignLeft="@+id/circusbutton"
+            android:layout_alignStart="@+id/circusbutton" />
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="80dp"
+            android:id="@+id/theaterbutton"
+            android:src="@drawable/cbtheater"
+            android:layout_alignTop="@id/educationbutton"
+            android:layout_toRightOf="@+id/educationbutton" />
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="80dp"
+            android:id="@+id/filmbutton"
+            android:src="@drawable/cbfilm"
+            android:layout_below="@+id/educationbutton"
+            android:layout_alignLeft="@+id/circusbutton"
+            android:layout_alignStart="@+id/circusbutton" />
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="80dp"
+            android:id="@+id/visualartbutton"
+            android:src="@drawable/cbvisualart"
+            android:layout_alignTop="@id/filmbutton"
+            android:layout_toRightOf="@+id/filmbutton" />
 
 
 
-</RelativeLayout>
+
+    </RelativeLayout>
+
+
+</ScrollView>
