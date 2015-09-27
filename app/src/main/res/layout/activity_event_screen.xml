@@ -35,7 +35,8 @@
                 android:maxHeight="@dimen/search_button_size"
                 android:layout_span="1"
                 android:background="@color/black"
-                android:clickable="true" />
+                android:clickable="true"
+                android:orientation="vertical"/>
 
         </TableRow>
 
@@ -196,8 +197,8 @@
                     android:textColor="@color/pink_txt" />
 
                 <TextView
-                    android:layout_width="fill_parent"
-                    android:layout_height="fill_parent"
+                    android:layout_width="@dimen/text_width"
+                    android:layout_height="wrap_content"
                     android:text="@string/e_1_description"
                     android:id="@+id/descript_1"
                     android:layout_alignTop="@+id/venue_1"
@@ -297,8 +298,8 @@
                     android:textColor="@color/pink_txt" />
 
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_width="@dimen/text_width"
+                    android:layout_height="wrap_content"
                     android:text="@string/e_2_description"
                     android:id="@+id/descript_2"
                     android:layout_alignTop="@+id/venue_2"
@@ -445,7 +446,7 @@
                     android:textColor="@color/pink_txt" />
 
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="@dimen/text_width"
                     android:layout_height="wrap_content"
                     android:text="@string/e_3_description"
                     android:id="@+id/descript_3"
@@ -468,7 +469,7 @@
                     android:layout_marginTop="29dp" />
 
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="@dimen/text_width"
                     android:layout_height="wrap_content"
                     android:text="@string/e_3_ticket"
                     android:id="@+id/ticket_3"
@@ -653,7 +654,7 @@
                     android:textColor="@color/pink_txt" />
 
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="@dimen/text_width"
                     android:layout_height="wrap_content"
                     android:text="@string/e_4_description"
                     android:id="@+id/descript_4"
@@ -754,7 +755,7 @@
                     android:textColor="@color/pink_txt" />
 
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="@dimen/text_width"
                     android:layout_height="wrap_content"
                     android:text="@string/e_5_description"
                     android:id="@+id/descript_5"
@@ -855,7 +856,7 @@
                     android:textColor="@color/pink_txt" />
 
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="@dimen/text_width"
                     android:layout_height="wrap_content"
                     android:text="@string/e_6_description"
                     android:id="@+id/descript_6"
@@ -991,7 +992,7 @@
                     android:textColor="@color/pink_txt" />
 
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="@dimen/text_width"
                     android:layout_height="wrap_content"
                     android:text="@string/e_7_description"
                     android:id="@+id/descript_7"
@@ -1014,7 +1015,7 @@
                     android:layout_marginTop="29dp" />
 
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="@dimen/text_width"
                     android:layout_height="wrap_content"
                     android:text="@string/e_7_ticket"
                     android:id="@+id/ticket_7"
@@ -1140,7 +1141,7 @@
                     android:textColor="@color/pink_txt" />
 
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="@dimen/text_width"
                     android:layout_height="wrap_content"
                     android:text="@string/e_8_description"
                     android:id="@+id/descript_8"
@@ -1163,7 +1164,7 @@
                     android:layout_marginTop="29dp" />
 
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="@dimen/text_width"
                     android:layout_height="wrap_content"
                     android:text="@string/e_8_ticket"
                     android:id="@+id/ticket_8"
