@@ -80,6 +80,16 @@ public class EventScreen extends AppCompatActivity {
         } else {
             RowTwoVisibility.setVisibility(View.VISIBLE);
         }
+
+        int RowTwoClick2 = R.id.tableInfoRow2_2;
+
+        TableRow RowTwo2Visibility = (TableRow) findViewById(RowTwoClick2);
+
+        if (RowTwo2Visibility.getVisibility() == View.VISIBLE) {
+            RowTwo2Visibility.setVisibility(View.GONE);
+        } else {
+            RowTwo2Visibility.setVisibility(View.VISIBLE);
+        }
     }
 
     public void onClickRowThree(View v) {
@@ -97,14 +107,34 @@ public class EventScreen extends AppCompatActivity {
 
     public void onClickRowFive(View v) {
         //when row is clicked show or hide additional info
-        int RowTwoClick1 = R.id.tableInfoRow5_1;
+        int RowFiveClick1 = R.id.tableInfoRow5_1;
 
-        TableRow RowTwoVisibility = (TableRow) findViewById(RowTwoClick1);
+        TableRow RowFive1Visibility = (TableRow) findViewById(RowFiveClick1);
 
-        if (RowTwoVisibility.getVisibility() == View.VISIBLE) {
-            RowTwoVisibility.setVisibility(View.GONE);
+        if (RowFive1Visibility.getVisibility() == View.VISIBLE) {
+            RowFive1Visibility.setVisibility(View.GONE);
         } else {
-            RowTwoVisibility.setVisibility(View.VISIBLE);
+            RowFive1Visibility.setVisibility(View.VISIBLE);
+        }
+
+        int RowFiveClick2 = R.id.tableInfoRow5_2;
+
+        TableRow RowFive2Visibility = (TableRow) findViewById(RowFiveClick2);
+
+        if (RowFive2Visibility.getVisibility() == View.VISIBLE) {
+            RowFive2Visibility.setVisibility(View.GONE);
+        } else {
+            RowFive2Visibility.setVisibility(View.VISIBLE);
+        }
+
+        int RowFiveClick3 = R.id.tableInfoRow5_3;
+
+        TableRow RowFive3Visibility = (TableRow) findViewById(RowFiveClick3);
+
+        if (RowFive3Visibility.getVisibility() == View.VISIBLE) {
+            RowFive3Visibility.setVisibility(View.GONE);
+        } else {
+            RowFive3Visibility.setVisibility(View.VISIBLE);
         }
     }
 
