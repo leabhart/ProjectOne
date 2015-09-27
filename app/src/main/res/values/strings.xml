@@ -1,6 +1,6 @@
 <resources>
     <!-- General Strings -->
-    <string name="app_name">ProjectOne</string>
+    <string name="app_name">DM Social Club Events</string>
     <string name="action_settings">Settings</string>
 
     <!-- EventScreen Strings -->
